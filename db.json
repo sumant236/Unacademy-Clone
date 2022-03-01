@@ -1,0 +1,606 @@
+{
+    "Explore" : [
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "JEE and NEET Preparation",
+            "subTitles": [
+                {
+                    "topic": "IIT JEE",
+                    "iconsUrl": "https://static.uacdn.net/topology/TMUVD/icon/origin.png"
+                },
+                {
+                    "topic": "NEET UG",
+                    "iconsUrl": "https://static.uacdn.net/topology/YOTUH/icon/origin.png"
+                }
+            ]
+        },
+        {
+            "title" : "CUCET",
+            "subTitles": [
+                {
+                    "topic": "CUCET - Part B",
+                    "iconsUrl": "https://static.uacdn.net/topology/test_default.png"
+                },
+                {
+                    "topic": "CUCET - Part A",
+                    "iconsUrl": "https://static.uacdn.net/topology/test_default.png"
+                },
+                {
+                    "topic": "BHU Entrance Exam",
+                    "iconsUrl": "https://static.uacdn.net/topology/test_default.png"
+                },
+                {
+                    "topic": "AMU Entrance Exam",
+                    "iconsUrl": "https://static.uacdn.net/topology/test_default.png"
+                }
+            ]
+        },
+        {
+            "title" : "UPSC CSE",
+            "subTitles": [
+                {
+                    "topic": "UPSC CSE - Optional",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "UPSC CSE - GS",
+                    "iconsUrl": "https://static.uacdn.net/topology/KSCGY/icon/origin.png"
+                }
+            ]
+        },
+        {
+            "title" : "Govt Exams",
+            "subTitles": [
+                {
+                    "topic": "Bank Exams",
+                    "iconsUrl": "https://static.uacdn.net/topology/RTPSX/icon/origin.png"
+                },
+                {
+                    "topic": "Railway Exams",
+                    "iconsUrl": "https://static.uacdn.net/topology/QJEJG/icon/origin.png"
+                },
+                {
+                    "topic": "Bank Regulatory Body Exams",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "SSC Exams (Non Technical)",
+                    "iconsUrl": "https://static.uacdn.net/topology/VLEMN/icon/origin_nYdCk3H.png"
+                },
+                {
+                    "topic": "Bank Exams - Tamil",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Bank Exams - Telugu",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Bank Exams - Kannada",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Insurance Exams",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Stenographer Exams",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Supreme, High & District Courts",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Defence Exams",
+            "subTitles": [
+                {
+                    "topic": "CDS/AFCAT/CAPF",
+                    "iconsUrl": "https://static.uacdn.net/topology/TUNWK/icon/origin.png"
+                },
+                {
+                    "topic": "Services Selection Board (SSB)",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Airforce/Navy/Coast Guard",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "NDA",
+                    "iconsUrl": "https://static.uacdn.net/topology/DANNJ/icon/origin.png"
+                }
+            ]
+        },
+        {
+            "title" : "State PSC",
+            "subTitles": [
+                {
+                    "topic": "BPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/QOIVT/icon/origin.png"
+                },
+                {
+                    "topic": "CGPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/AELON/icon/origin.png"
+                },
+                {
+                    "topic": "WBPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/UQCMN/icon/origin_aSPvTL4.png"
+                },
+                {
+                    "topic": "MPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/GNFFE/icon/origin.png"
+                },
+                {
+                    "topic": "TNPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/ZISFF/icon/origin.png"
+                },
+                {
+                    "topic": "Kerala PSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/ZIUBD/icon/origin.png"
+                },
+                {
+                    "topic": "GPSC",
+                    "iconsUrl": "https://static.uacdn.net/topology/RJVOD/icon/origin_ICSOdMb.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },{
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },{
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                },
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },{
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },{
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        },
+        {
+            "title" : "Unacademy Icons",
+            "subTitles": [
+                {
+                    "topic": "Icons",
+                    "iconsUrl": "https://static.uacdn.net/topology/OUUJV/icon/origin_uw7V6Ec.png"
+                }
+            ]
+        }
+    ]
+}
