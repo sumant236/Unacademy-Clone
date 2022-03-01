@@ -1,0 +1,113 @@
+.column {
+  grid-column: 1/17;
+  margin-top: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 120px px;
+}
+
+.user-details {
+  border-radius: 8px;
+  background-color: white;
+  padding: 28px 32px;
+  margin-bottom: 12px;
+
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  box-shadow: 0px 16px 32px 0px var(--color-shadow);
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+.payment-wrapper {
+  border-radius: 8px;
+  width: 54.3%;
+  height: 800px;
+  background-color: white;
+  padding: 32px 32px 32px 40px;
+  margin-bottom: 12px;
+  box-shadow: 0px 16px 32px 0px var(--color-shadow);
+}
+
+.payment-wrapper h4 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: black;
+  margin: 0px;
+  font-family: sans-serif !important;
+}
+.column {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+}
+
+.user-details h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--color-text-primary);
+  margin: 0px;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  -webkit-box-pack: justify;
+}
+
+.method-wrapper {
+  display: flex;
+  margin-top: 32px;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  word-break: break-word;
+  outline: none;
+  font-family: sans-serif !important;
+  overscroll-behavior: none;
+}
+
+.column-1 {
+  position: relative;
+  width: 188px;
+  background-color: #f1f3f5;
+  height: 600px;
+  padding: 16px;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.details {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--color-text-primary);
+  margin: 0px;
+  margin-top: 8px;
+  font-family: sans-serif !important;
+  display: block;
+}
+
+body {
+  background-color: rgb(247, 245, 245);
+}
+
+.picture {
+  background-image: url("../pictures/myprofile.png");
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  user-select: none;
+  cursor: default;
+  width: 56px;
+  height: 56px;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: white;
+  border-radius: 15px;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.avatar {
+  display: inline-block;
+}
