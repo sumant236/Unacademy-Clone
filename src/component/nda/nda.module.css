@@ -1,8 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .wrapper{
-    width: 100%;
-    border: 1px solid red;
     margin: auto;
     text-align: center;
     display: flex;
     justify-content: space-between;
+}
+
+.introduction_icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.introduction{
+  text-align: center;
+}
+.combat{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.Liveclasses_shedule{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.Liveclasses_shedule img{
+    height: 100px;
+    width:100px;
+}
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.cursol{
+    margin: 100px;
+    border: 1px solid red;
 }
