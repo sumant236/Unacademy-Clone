@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import Combatnda from './card/batches/Combatnda';
 import Super30 from './card/batches/Super30';
