@@ -1,0 +1,52 @@
+.cash-heading {
+  font-weight: normal;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px 0px 8px;
+  font-size: 16px;
+}
+
+.power {
+  font-size: 10px;
+  color: #7a8b94;
+}
+
+.image-wrapper {
+  margin-left: 4px;
+}
+
+.how-wrapper {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 24px auto;
+}
+
+.first-point {
+  display: flex;
+  max-width: 300px;
+  margin-bottom: 16px;
+}
+
+.numerical-wrapper {
+  flex: 1 1 0%;
+  position: relative;
+}
+
+.inner-numerical-wrapper {
+  position: absolute;
+  top: -12px;
+  min-height: 100%;
+  left: -8px;
+  display: flex;
+}
+
+.inner-first-point {
+  color: #08bd80;
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 5px;
+}
