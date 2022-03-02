@@ -26,10 +26,6 @@
     "server": "json-server --watch db.json"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
