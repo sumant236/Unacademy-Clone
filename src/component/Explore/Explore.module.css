@@ -53,7 +53,9 @@ input::placeholder{
     scroll-behavior: smooth;
     overflow: scroll;
     width: 272px;
-    margin: 72px auto;
+    position: sticky;
+    top: 100px;
+    cursor: pointer;
 }
 
 .imgStyle{
@@ -62,19 +64,39 @@ input::placeholder{
     margin-bottom: 20px;
 }
 .box{
-    display: grid;
-    grid-template-columns: repeat(3, 272px);
-    grid-column-gap: 16px; 
+    max-width: 848px;
+    margin-bottom: 50px;
+}
+h5{
+    font-size: 14px;
+    font-weight: 100;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 .course{
     background: #fff;
-    padding: 24px 184px 24px 24px;
+    padding: 24px 24px 24px 24px;
     margin-top: 16px;
     box-shadow: 0px 16px 32px rgb(233 238 242 / 40%);
     border-radius: 8px;
+    max-width: 272px;
+    cursor: pointer;
 }
 p{
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 550;
     width: 224px;
+    margin: 0px;
+}
+
+.topics{
+    max-width: 90%;
+    margin: 72px auto;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-flow: row;
 }
