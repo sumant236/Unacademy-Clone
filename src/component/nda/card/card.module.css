@@ -1,6 +1,28 @@
 .sumit{
     display: flex;
+    justify-content: space-between;
+    padding: 25px;
 }
 .sumit img{
    height: 100px;
+   width: 150px;
+   border-radius: 5px;
+   margin-right: 15px;
+}
+.sumit h1{
+    text-size-adjust: 100%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+.sumit p{
+    text-size-adjust: 100%;
+    font-size: 14px;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding-bottom: 10px;
 }

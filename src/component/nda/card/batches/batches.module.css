@@ -1,7 +1,43 @@
 .batch{
-    margin: 50px;
-    border: 1px solid red;
+    margin: 20px;
 }
 .batch img{
-    width: 200px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.batch h4{
+    text-size-adjust: 100%;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+.batch p{
+    text-size-adjust: 100%;
+    font-size: 14px;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding-bottom: 10px;
+}
+
+.view_schehule_ h5{
+    text-size-adjust: 100%;
+    font-size: 15px;
+    width: 100%;
+    font-weight: 700;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+.view_schehule_{
+    display: flex;
+}
+.view_schehule_ img{
+    height: 20px;
+    margin-right: -80px;
 }
