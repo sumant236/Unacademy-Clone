@@ -13,6 +13,7 @@
     align-items: center;
     margin-top: 3%;
     display: flex;
+    
      
 }
 .heading{
@@ -42,6 +43,7 @@
     width: 35%;
     padding: 3%;
     border: 1px solid #E9EEF2;
+    background-color: white;
     border-radius: 10px 0px 0px 10px;
 }
 .head{
@@ -75,7 +77,19 @@
     margin-left: 40px;
 }
 
-.content div{
+.pluscontent div{
+
+    display: flex;
+
+    margin-top: 20px;
+}
+.iconiccontent{
+
+    display: flex;
+    margin-top: 25px;
+}
+
+.checked div{
 
     display: flex;
 
@@ -111,13 +125,15 @@
 
 .plusbutton button{
 
-    width: 50%;
-    height: 45px;
-
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
     color: #FCFCFC;
     font-weight: bold;
     background-color: #08bd80;
-
+    text-size-adjust: 100%;
+    border: none;
     border-radius: 8px;
 }
 
@@ -129,20 +145,46 @@
     padding: 3%;
     padding-left: 30px;
     border: 1px solid #E9EEF2;
+    background-color: white;
     border-radius: 10px;
 }
 
-.button{
+.iconicbutton{
 
+    text-align: center;
+    margin-top: 20pxcf;
+}
+
+.btn1{
+
+
+    width: 176px;
+    height: 48px;
     padding: 10px;
+    cursor: pointer;
+    color: #FCFCFC;
+    font-weight: bold;
     background-color: #08bd80;
-    color: white;
     text-size-adjust: 100%;
-    font-size: 14px;
-    margin: auto;
     border: none;
-    border-radius: 5px;
-    width: auto;
+    border-radius: 8px;
+}
+
+.btn2{
+
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #E9EEF2;
+    border-radius: 8px;
+    background-color: white;
+    color:#08bd80;
+    margin-left: 20px;
+
 
 }
+ 
+
 
