@@ -9,7 +9,7 @@ function Subscription() {
     <div className={style.best_way}>
         <div>
             <h1>A subscription that's more than just classes</h1> 
-            <Link to=''>Get subscription</Link>  
+            <Link className={style.best_way_link} to=''>Get subscription</Link>  
         </div>  
         <div className={style.example}>
             <div>     

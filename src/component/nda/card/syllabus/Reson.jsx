@@ -1,14 +1,15 @@
 import React from 'react'
+import style from '../card.module.css'
 function Reson() {
   return (
-    <div>
+    <div className={style.syllabus_card}>
     <div>    
         <h3>Reasoning</h3>  
-        <p> 86 courses</p>      
+        <p>1 upcoming . 86 courses</p>      
     </div>   
-    <div>
+    
         <p>Verbal Resoning, Airthmetic </p>      
-    </div>      
+        
     </div>
   )
 }

@@ -1,5 +1,7 @@
 .batch{
     margin: 20px;
+    background-color: #ffff;
+    padding: 10px;
 }
 .batch img{
     height: 200px;

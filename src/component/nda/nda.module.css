@@ -164,6 +164,7 @@
     font: 'San Francisco', Helvetica, Arial, san-serif;
     padding-top: 10px;
 }
+
 .introduction button{
     font-size: 12px;
     text-align: center;
@@ -375,12 +376,72 @@
 .subscription_card{
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+}
+.ndasubscription_pay{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+.ndasubscription_pay h2{
+    text-size-adjust: 100%;
+    font-size: 36px;
+    width: 100%;
+    font-weight: 700;
+    /* color: rgb(60, 72, 82); */
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ndasubscription_pay h4{
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-size-adjust: 100%;
+    font-size: 22px;
+    width: 100%;
+    font-weight: 700;
 }
 .Learningapp{
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+    text-size-adjust: 100%;
+    border: 1px solid white;
+    padding: 20px;
 }
 .Learningapp_img{
-    width: 70%;
-    height: 700px;
+    width: 50%;
+    height: 500px;
 }
+.img_apple{
+    height: 100px;
+    width: 180px;
+    margin-left: 20px;
+}
+.Learningapp h1{
+    text-size-adjust: 100%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 700;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    padding: 50px;
+}
+.Learningapp p{
+    text-size-adjust: 100%;
+    font-size: 24px;
+    font-weight: 700px;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+

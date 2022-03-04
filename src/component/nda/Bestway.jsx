@@ -9,7 +9,7 @@ function Bestway() {
     <div className={style.best_way}>
         <div>
             <h1>The best way to prepare for NDA</h1> 
-            <Link to=''>Get subscription</Link>  
+            <Link className={style.best_way_link} to=''>Get subscription</Link>  
         </div>  
         <div className={style.example}>
             <div>     

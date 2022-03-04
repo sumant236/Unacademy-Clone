@@ -1,9 +1,10 @@
 import React from 'react'
+import style from '../card.module.css'
 
 function Month1() {
   return (
-    <div>
-      <button>16% OFF</button>
+    <div className={style.month_payment}>
+      <span>16% OFF</span>
       <div>
         <h3>1 month</h3>
         <h1>₹2,000</h1>
