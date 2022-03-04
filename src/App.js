@@ -8,8 +8,8 @@ function App() {
     <div className="App">
 
        <Page/>
-       <Details/>
-
+       {/* <Details/> */}
+      
      
 
     </div>

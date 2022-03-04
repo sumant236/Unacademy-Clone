@@ -3,93 +3,93 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-*{
+/* *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+} */
+.wrapper {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  background-color: rgb(247, 251, 253);
 }
-.wrapper{
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-    background-color: rgb(247,251,253);
-}
-.wrapper img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.wrapper_content{
-    padding: 20px;
+.wrapper img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.wrapper_content h1{
-    text-size-adjust: 100%;
-    font-size: 32px;
-    line-height: 120%;
-    width: 100%;
-    font-weight: 700;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.wrapper_content {
+  padding: 20px;
 }
-.wrapper_content p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+.wrapper_content h1 {
+  text-size-adjust: 100%;
+  font-size: 32px;
+  line-height: 120%;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper_content p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  width: 100%;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wrapper_content div {
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  width: 100%;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wrapper_content button {
-    padding: 10px;
-    background-color: #08bd80;
-    color: white;
-    text-size-adjust: 100%;
-    font-size: 14px;
-    margin: auto;
-    border: none;
-    border-radius: 5px;
-    width: auto;
+  padding: 10px;
+  background-color: #08bd80;
+  color: white;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  width: auto;
 }
-.discount_logo{
-    display: flex;
-    justify-content: center;
+.discount_logo {
+  display: flex;
+  justify-content: center;
 }
-.discount_logo img{
-    margin: 5px;
-    margin-top: -4px;
+.discount_logo img {
+  margin: 5px;
+  margin-top: -4px;
 }
-.view_sub{
-    text-decoration: none;
-    border-style: none none dotted none;
-    color: #08bd80;
+.view_sub {
+  text-decoration: none;
+  border-style: none none dotted none;
+  color: #08bd80;
 }
 /* media query on header */
 @media only screen and (max-width: 950px) {
-  .wrapper img{
+  .wrapper img {
     width: 144px;
     height: 206px;
     margin-top: 100px;
@@ -97,70 +97,66 @@
   .wrapper {
     padding-top: 50px;
   }
-  .wrapper_content h1{
+  .wrapper_content h1 {
     text-size-adjust: 100%;
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-bottom: 5px; 
+    font: "San Francisco", Helvetica, Arial, san-serif;
+    padding-bottom: 5px;
   }
-   .wrapper_content p{
+  .wrapper_content p {
     text-size-adjust: 100%;
     font-size: 14px;
     line-height: 120%;
     width: 100%;
     text-align: center;
     color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
+    font: "San Francisco", Helvetica, Arial, san-serif;
     padding-top: 0px;
-   }
-   .discount_logo img{
+  }
+  .discount_logo img {
     margin: 5px;
     margin-top: -4px;
     width: 25px;
     height: 25px;
-   }
+  }
 }
 
 @media only screen and (max-width: 750px) {
-    .left_to_right{
-        justify-content: right;
-    }
+  .left_to_right {
+    justify-content: right;
+  }
 }
 
-
-
-
-
-.introduction_icon{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+.introduction_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
-.introduction{
+.introduction {
   text-align: center;
 }
-.combat{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+.combat {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
-.Liveclasses_shedule{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+.Liveclasses_shedule {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
-.Liveclasses_shedule img{
-    height: 100px;
-    width:100px;
+.Liveclasses_shedule img {
+  height: 100px;
+  width: 100px;
 }
-.carousel{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
-.cursol{
-    margin: 100px;
-    border: 1px solid red;
+.cursol {
+  margin: 100px;
+  border: 1px solid red;
 }

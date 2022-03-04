@@ -5,7 +5,7 @@
   display: flex;
 
   flex-direction: column;
-  margin-bottom: 120px px;
+  margin-bottom: 120px;
 }
 
 .user-details {
@@ -15,15 +15,15 @@
   margin-bottom: 12px;
 
   display: flex;
-  width: 56.5%;
+  width: 100%;
   justify-content: space-between;
   box-shadow: 0px 16px 32px 0px var(--color-shadow);
   font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 .payment-wrapper {
   border-radius: 8px;
-  width: 56%;
-  height: 400px;
+  width: 98%;
+  height: 450px;
   background-color: white;
   padding: 32px 32px 32px 40px;
   margin-bottom: 12px;
@@ -67,9 +67,9 @@
 
 .column-1 {
   position: relative;
-  width: 188px;
+  /* width: 188px; */
   background-color: #f1f3f5;
-  height: 300px;
+  height: 330px;
   padding: 16px;
   border-radius: 4px;
   z-index: 1;
@@ -167,7 +167,6 @@ body {
   padding: 0;
   border: none;
   background-color: transparent;
-  margin-left: -100px;
   width: 30px;
 }
 
@@ -239,4 +238,102 @@ input {
 .MuiCardHeader-root {
   padding-bottom: 16px;
   padding-top: 16px;
+}
+
+.MuiButtonBase-root-MuiTab-root {
+  padding: 12px 0px;
+}
+
+.subscription-wrapper {
+  grid-column: 17/25;
+  margin-top: 80px;
+  position: relative;
+  width: 32%;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.subscription-inner-wrapper {
+  position: relative;
+  width: auto;
+  margin-bottom: 12px;
+  overflow-y: auto;
+}
+
+.subscription-first-wrapper {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 12px;
+  margin-left: 70px;
+  box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.4);
+}
+
+.sub-head-wrapper {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px;
+}
+
+.payment-whole-wrapper {
+  z-index: 2000;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  width: 100vw;
+  /* height: 2px; */
+  display: flex;
+  position: fixed;
+  grid-column-gap: 16px;
+  background: transparent;
+}
+
+.payment-container {
+  width: 1136px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-top: 40px;
+  min-height: calc(100vh - 56px);
+  grid-auto-rows: max-content;
+}
+
+.subs-desc-wrapper {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #3c4852;
+  margin: 0px;
+  margin-top: 4px;
+}
+
+.subs-valid-desc {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.subs-inner-valid-desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7a8b94;
+  margin: 0px;
+}
+
+.subs-valid-desc h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  margin: 0px;
+  color: #08bd80;
+  cursor: pointer;
+  font-family: sans-serif;
 }

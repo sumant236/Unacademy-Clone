@@ -7,25 +7,29 @@ import avatar1 from './pictures/pay_in_parts.png'
 import avatar2 from './pictures/card.png'
 import avatar3 from './pictures/net_banking.png'
 import CardHeader from '@mui/material/CardHeader';
+import { useState } from 'react';
 import avatar4 from './pictures/emi-options.png'
 import avatar5 from './pictures/cash.png'
 import avatar6 from './pictures/loan.png'
 import TabPanel from './TabPanel';
 import Cash from './payment-methods/Cash';
+import CashReciept from './payment-methods/CashReciept';
 import Card from './payment-methods/Card'
 import NetBanking from './payment-methods/NetBanking';
-import { useState } from 'react';
+
 
 
 
 export default function Details() {
     
     const [value, setValue] = React.useState(0);
+    const [cashVal,setCashVal]=useState(true)
     const handleChange = (event, newValue) => {
         setValue(newValue);
       };
   return (
-      <div>
+    <div className='payment-container'>
+      <div className='payment-whole-wrapper'>
           <div className='column'>
               <div className='user-details'>  
                   <div>
@@ -98,19 +102,37 @@ export default function Details() {
                       </div>
                       <div className='form'>
                     <TabPanel value={value} index={0}>
-                            <Card/>
+                              <Card/>
                         </TabPanel>
                         <TabPanel value={value} index={1}>
                             <NetBanking/>
+                          </TabPanel>
+                          {cashVal ?   <TabPanel value={value} index={2}>
+                            <Cash  cashVal={cashVal} setCashVal={ setCashVal}/>
+                        </TabPanel> :  <TabPanel value={value} index={2}>
+                             <CashReciept cashVal={cashVal} setCashVal={ setCashVal}/>
                         </TabPanel>
-                        <TabPanel value={value} index={2}>
-                            <Cash/>
-                        </TabPanel>
-      
+                         }
+                      
                         </div>
                   </div>
               </div>
+      </div>
+      <div className='subscription-wrapper'>
+        <div className='subscription-inner-wrapper'>
+          <div className='subscription-first-wrapper'>
+              <h4 className='sub-head-wrapper'>IIT JEE subscription</h4>
+              <p className="subs-desc-wrapper">24 months </p>
+              <div className='subs-valid-desc'>
+                <p className="subs-inner-valid-desc">Valid till 3 Mar, 2024</p>
+                <h6  className="subs-inner-change-wrapper">Change duration</h6>
+              </div>
           </div>
-    </div>
+
+        </div>
+
+      </div>
+      </div>
+      </div>
   )
 }
