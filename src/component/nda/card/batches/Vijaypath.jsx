@@ -11,10 +11,14 @@ function Vijaypath() {
           <p>Starts on 11 Feb 2022</p>
           <p>Afternoon classes</p>   
           <p>Mayank Parashar, Shyam Sharma,
-            <br/> and 2 more
+           and 2 more
           </p>  
         </div>
-      <h5>View full schedule</h5>
+       <hr />
+      <div className={style.view_schehule_}>
+        <img src='https://static.uacdn.net/production/_next/static/images/batch-play-all.svg?q=75&w=32' alt='dicr' />
+        <h5>View full schedule</h5>
+      </div>
     </div>        
   )
 }

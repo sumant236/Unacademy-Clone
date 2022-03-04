@@ -8,8 +8,8 @@ function Anish() {
         <div>
             <h1>Anish Pathak</h1> 
             <p>
-                Experience - 12 years Founder Defence Sarathi<br />
-                  Associated with Cadet Academy(NDA/Airforce/XY/AFCAT/CDS)<br />
+                Experience - 12 years Founder Defence Sarathi
+                  Associated with Cadet Academy(NDA/Airforce/XY/AFCAT/CDS)
                 Career Launcher(CAT/CLAT/IPM)  
             </p> 
             <p>Teaches Crash Course and 10 more</p>  

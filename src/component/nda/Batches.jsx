@@ -5,7 +5,8 @@ import Super30 from './card/batches/Super30';
 import Vajara from './card/batches/Vajara';
 import Vijaypath from './card/batches/Vijaypath';
 import style from './nda.module.css'
-
+import {Link} from 'react-router-dom'
+import Startedsoon from './Startedsoon';
 function Batches() {
     let items =
     [
@@ -21,16 +22,28 @@ function Batches() {
         }
     ]    
     return (
-      <div className={style.cursol}>
+        <>
+        <div className={style.cursol}>
+        <div className={style.top_educator}>
+            <div>
+                <h2>Batches for syllabus completion</h2>  
+                <p>Boost your NDA exam preparation with extensive courses by the best educators</p>      
+            </div>  
+            <Link to='' className={style.view_sub}>See all</Link>        
+        </div>        
         <Carousel>
                 {items.map(item =>
-                    <div className={style.carousel}>
-                        <div> {item.Profile_1}</div> 
-                        <div> {item.Profile_2}</div> 
+                    <div key={item.id}> 
+                        <div className={style.carousel}>
+                            <div> {item.Profile_1}</div> 
+                            <div> {item.Profile_2}</div> 
+                        </div>
                     </div>
                 )}
         </Carousel>
-      </div>
+        </div>
+        <Startedsoon/>
+        </>
     )
 }
 export default Batches;
