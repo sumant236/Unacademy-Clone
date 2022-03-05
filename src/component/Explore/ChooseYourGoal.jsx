@@ -33,7 +33,7 @@ export const ChooseYourGoal = () => {
       <div className={style.inputContainer}>
         <Login />
         <div className={style.searchBox}>
-            <h1>Choose your goal</h1>
+            <h1 class={style.h1Tag}>Choose your goal</h1>
             <div className={style.inputDiv}>
               <div className={style.icon}><label><IoSearchOutline size = "20px" color='#3C4852'/></label></div>
               <div className={style.searchInput}><input type="text" placeholder= "Search for your goal" onChange={handleChange}></input></div>

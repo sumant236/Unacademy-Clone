@@ -11,10 +11,10 @@ body{
     margin-left: 10px;
     width: 100%;
 }
-h1{
+.h1Tag{
     font-size: 38px;
 }
-input::placeholder{
+.searchInput::placeholder{
     color: #7a8b94;
     font-size: 14px;
     font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
@@ -69,7 +69,7 @@ input::placeholder{
     max-width: 848px;
     margin-bottom: 50px;
 }
-h5{
+.h5Tag{
     font-size: 14px;
     font-weight: 100;
 }

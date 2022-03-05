@@ -10,7 +10,7 @@ export const Courses = ({lists}) => {
         {
             lists.map((item)=>(
                 <div className={style.box}>
-                        <h5>{item.title}</h5> 
+                        <h5 className={style.h5Tag}>{item.title}</h5> 
                         <div className={style.boxes}>
                             {item.subTitles.map((data)=>(
                                     <Link to='page' className={style.linkP}> 
