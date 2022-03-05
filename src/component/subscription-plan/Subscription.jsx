@@ -21,7 +21,7 @@ export const Subscription = () => {
                 <img src='https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Plus_icon_9029cac986.png' alt="-"/>
               </div>
             </div>
-            <div className={style.content}>
+            <div className={style.pluscontent}>
               
               <div className={style.check}>
                   <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
@@ -59,40 +59,42 @@ export const Subscription = () => {
                   <img src='https://unacademy-prod.s3.ap-southeast-1.amazonaws.com/web-cms/Group_4894_2b74e644b9.png' alt="-"/>
                 </div>
               </div>
-              <div className={style.content}>
+              <div className={style.iconiccontent}>
+                <div className={style.checked}>
+                  <div className={style.check}>
+                      <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
+                      <h5>India's best educators</h5>
+                  </div>
+                  <div className={style.check}>
+                      <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
+                      <h5>Interactive live classes</h5>
+                  </div>
+                  <div className={style.check}> 
+                      <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
+                      <h5>Structured courses & PDFs</h5>
+                  </div>
+                  <div className={style.check}>
+                      <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
+                      <h5>Live tests & quizzes</h5>
+                  </div>
+                </div>
                 
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>India's best educators</h5>
+                <div className={style.checked}>
+                  <div className={style.check}>
+                      <img src='https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=32' alt="true" />
+                      <h5>Priority Doubt Solving</h5>
+                  </div>
+                  <div className={style.check}>
+                      <img src='https://static.uacdn.net/production/_next/static/images/yellowTick.png?q=75&w=32' alt="true" />
+                      <h5>Priority in Live Classes</h5>
+                  </div>
                 </div>
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>Interactive live classes</h5>
-                </div>
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>Structured courses & PDFs</h5>
-                </div>
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>Live tests & quizzes</h5>
-                </div>
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>Structured courses & PDFs</h5>
-                </div>
-                <div className={style.check}>
-                    <img src='https://static.uacdn.net/production/_next/static/images/greenTick.png?q=75&w=48' alt="true" />
-                    <h5>Live tests & quizzes</h5>
-                </div>
-
-                
               </div>
               <div className={style.iconicbutton}>
-                <button>
+                <button className={style.btn1}>
                   Select ICONIC
                 </button>
-                <button>
+                <button className={style.btn2}>
                   Learn more
                 </button>
               </div>

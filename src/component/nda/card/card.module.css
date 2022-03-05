@@ -1,6 +1,113 @@
 .sumit{
     display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #ffff;
+    margin: 15px;
 }
 .sumit img{
    height: 100px;
+   width: 150px;
+   border-radius: 5px;
+   margin-right: 15px;
 }
+.sumit h1{
+    text-size-adjust: 100%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+.sumit p{
+    text-size-adjust: 100%;
+    font-size: 14px;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding-bottom: 10px;
+}
+
+/* syllabus */
+
+.syllabus_card{
+    padding: 25px;
+    background-color: #ffff;
+    margin: 25px;
+    width: 400px;
+    height: 150px;
+    border-left: 10px solid yellow;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.syllabus_card p{
+    padding: 8px;
+}
+/* .prepration_card */
+.prepration_card{
+    padding: 25px;
+    background-color: #ffff;
+    margin: 25px;
+    width: 400px;
+    height: 150px;
+    border-left: 10px solid green;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.prepration_card button{
+    background-color: rgb(243, 103, 22);
+    color: #ffff;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.prepration_card p{
+    padding: 8px;
+}
+.prepration_card button{
+    margin: 10px;
+}
+
+/* subscription plan card  */
+
+.month_payment{
+    padding: 30px;
+    background-color: #ffff;
+    margin: 5px;
+}
+.month_payment span{
+    padding: 3px;
+    font-weight: bold;
+    background-color: #FFF5E7;
+    color: #FFD594;
+    border-radius: 4px;
+    margin: 10px;
+}
+.month_payment button{
+    padding: 10px;
+    background-color: #08bd80;
+    color: white;
+    text-size-adjust: 100%;
+    font-size: 14px;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* review of students */
+.review_students{
+    margin: 25px;
+    padding: 25px;
+    background-color: #ffff;
+}
+.review_students_name_start{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
