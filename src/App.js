@@ -8,8 +8,10 @@ import { ExplorePage } from './component/Explore/ExplorePage';
 function App() {
   return (
     <div className="App">
+
+      <PlanDetails/>
         {/* <Page/> */}
-      <Subscription/>
+      {/* <Subscription/> */}
       {/* <Details/> */}
       {/* <ExplorePage />*/}
     </div>

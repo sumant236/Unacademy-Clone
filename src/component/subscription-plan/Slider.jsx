@@ -23,11 +23,15 @@ export const Slider = () => {
     return (
       <div>
         <Carousel>
+
+
                 {items.map(item =>
-                    <div>
+                    <div key = {items.id}>
                         <div> {item.Profile_1}</div> 
                     </div>
                 )}
+
+                
         </Carousel>
       </div>
     )
