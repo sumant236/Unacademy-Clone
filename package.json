@@ -28,7 +28,6 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json"
   },
-  "eslintConfig": {},
   "browserslist": {
     "production": [
       ">0.2%",
