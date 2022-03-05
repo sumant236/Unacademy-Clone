@@ -12,7 +12,7 @@ function Anish() {
                   Associated with Cadet Academy(NDA/Airforce/XY/AFCAT/CDS)
                 Career Launcher(CAT/CLAT/IPM)  
             </p> 
-            <p>Teaches Crash Course and 10 more</p>  
+          <p>Teaches Crash Course and 10 more</p>
         </div> 
     </div>
   )

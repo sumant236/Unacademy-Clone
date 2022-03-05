@@ -1,0 +1,130 @@
+.modalBtn{
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    padding: 0px 0px 36px;
+}
+.h1Tag{
+    color: #3C4852;
+    font-size: 32px;
+    font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
+}
+.link{
+    display: flex;
+    font-size: 14px;
+    gap: 4px;
+    margin: 12px 0px 32px;
+}
+.pTag{
+    padding-top: 2px;
+    width: 14px;
+}
+.h6Tag{
+    font-size: 14px;
+    color: #08BD80;
+    font-weight: bold;
+    line-height: 150%;
+}
+.hyper{
+    text-decoration: none;
+    border-bottom: 2px dotted #08BD80;
+}
+
+.countryCode{
+    display: flex;
+}
+.paraTag{
+    padding: 0px 8px 0px 12px;
+    width: 40px;
+    max-width: 100%;
+}
+.codes{
+    display: flex;
+    width: 60px;
+    padding-top: 4px;
+}
+.flag{
+    height: 24px;
+    width: 24px;
+}
+.mobileNo::-webkit-outer-spin-button,
+.mobileNo::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.mobileNo[type=number] {
+    -moz-appearance: textfield;
+}
+.mobileNo{
+    padding: 16px 24px;
+    width: 90%;
+}
+.country{
+    display: flex;
+    padding: 16px 0px 16px 14px;
+}
+.inputBox{
+    border: 1px solid #E9EEF2;
+    border-radius: 6px;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+.inputBox:hover, .inputBox:focus, .inputBoxes:hover, .inputBoxes:focus{
+    transition: border-color 400ms ease-in-out 0s;
+    border: 1px solid black;
+}
+.inputBoxes{
+    padding: 16px 24px;
+    width: 100%;
+    border-radius: 6px;
+}
+.h6Email{
+    font-size: 14px;
+    color: #3C4852;
+    font-weight: bold;
+    line-height: 150%;
+}
+.email{
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.loginBtn{
+    width: 128px;
+    height: 48px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+.loginBtn:hover{
+    background: #08BD80;
+}
+.btnAndEmail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkBox{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.loginButton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: hsl(160, 92%, 39%);
+    color: #fff;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 72px;
+    align-items: center;
+    background: #FBFCFC;
+}

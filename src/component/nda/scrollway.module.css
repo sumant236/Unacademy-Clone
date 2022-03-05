@@ -2,13 +2,45 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.best_way h1{
+    text-size-adjust: 100%;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    padding: 10px;
+}
+.best_way p{
+    text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 120%;
+    width: 100%;
+    text-align: center;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    padding: 20px;
+}
+.best_way_link{
+    text-decoration: none;
+    border-style: none none dotted none;
+    color: #08bd80;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .example {
   background-color: #eee;
   width: 800px;
   height: 600px;
-  border: 1px dotted black;
   overflow-y: scroll; /* Add the ability to scroll */
 }
 

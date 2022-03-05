@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import style from './nda.module.css'
 
 function Contact() {
@@ -11,7 +12,8 @@ function Contact() {
           <button>Talk to our expert</button>   
         </div>  
         <img className={style.combat_left_img} src='https://static.uacdn.net/production/_next/static/images/ttu_illustration.svg?q=75&w=1920' alt='call_expert' />  
-    </div> 
+    </div>
+    <Footer/>  
     </>      
   )
 }

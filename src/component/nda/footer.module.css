@@ -1,0 +1,30 @@
+.social_icon img{
+  height: 20px;
+  margin: 5px;
+}
+.footer_css_direction{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+.footer_css_direction_link{
+    text-decoration: none;
+    font-size: 13px;
+    color:  rgb(60, 72, 82);
+}
+.footer_css_direction_link:hover {
+  color: green;
+}
+.learner_app_img img{
+  width: 120px;
+  margin: 5px;
+}
+.learner_app_img h5{
+    margin-left: 5px;
+}

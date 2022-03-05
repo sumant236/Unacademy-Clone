@@ -9,25 +9,25 @@ function Bestway() {
     <div className={style.best_way}>
         <div>
             <h1>The best way to prepare for NDA</h1> 
-            <Link to=''>Get subscription</Link>  
+            <Link to='subscribe' className={style.best_way_link}>Get subscription</Link>  
         </div>  
         <div className={style.example}>
             <div>     
-                <video loop muted autoPlay playsinline>
+                <video loop muted autoPlay playsInline>
                   <source src='https://static.uacdn.net/web-cms/schedule_055b9bfa23.webm'/>         
                 </video>
                 <h1>Schedule that works for you</h1> 
                 <p>Enroll in unlimited courses, get a personalised schedule and never miss a live class with our timely reminders</p> 
             </div>  
             <div>     
-                <video loop muted autoPlay playsinline>
+                <video loop muted autoPlay playsInline>
                   <source src='https://static.uacdn.net/web-cms/language_d56e370f78.webm'/>         
                 </video>
                 <h1>No Language barrier</h1> 
                 <p>Our educators teach in English, Hindi, Malayalam, Tamil and 12 other languages, so language is never a barrier</p> 
             </div>  
             <div>     
-                <video loop muted autoPlay playsinline>
+                <video loop muted autoPlay playsInline>
                   <source src='https://static.uacdn.net/web-cms/practice_2202d81863.webm'/>         
                 </video>
                 <h1>Learn anytime, anywhere</h1> 

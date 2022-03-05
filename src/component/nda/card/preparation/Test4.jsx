@@ -1,8 +1,9 @@
 import React from 'react'
+import style from '../card.module.css'
 
 function Test4() {
   return (
-    <div>
+    <div className={style.prepration_card}>
         <h3>NDA Previous Years Questions</h3>
         <button>Free</button> 
         <div>

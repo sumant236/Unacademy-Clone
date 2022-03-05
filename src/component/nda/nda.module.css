@@ -3,93 +3,93 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+/* * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} */
+.wrapper {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  background-color: rgb(247, 251, 253);
 }
-.wrapper{
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
-    background-color: rgb(247,251,253);
-}
-.wrapper img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.wrapper_content{
-    padding: 20px;
+.wrapper img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.wrapper_content h1{
-    text-size-adjust: 100%;
-    font-size: 32px;
-    line-height: 120%;
-    width: 100%;
-    font-weight: 700;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.wrapper_content {
+  padding: 20px;
 }
-.wrapper_content p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+.wrapper_content h1 {
+  text-size-adjust: 100%;
+  font-size: 32px;
+  line-height: 120%;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper_content p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  width: 100%;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wrapper_content div {
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  width: 100%;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .wrapper_content button {
-    padding: 10px;
-    background-color: #08bd80;
-    color: white;
-    text-size-adjust: 100%;
-    font-size: 14px;
-    margin: auto;
-    border: none;
-    border-radius: 5px;
-    width: auto;
+  padding: 10px;
+  background-color: #08bd80;
+  color: white;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  width: auto;
 }
-.discount_logo{
-    display: flex;
-    justify-content: center;
+.discount_logo {
+  display: flex;
+  justify-content: center;
 }
-.discount_logo img{
-    margin: 5px;
-    margin-top: -4px;
+.discount_logo img {
+  margin: 5px;
+  margin-top: -4px;
 }
-.view_sub{
-    text-decoration: none;
-    border-style: none none dotted none;
-    color: #08bd80;
+.view_sub {
+  text-decoration: none;
+  border-style: none none dotted none;
+  color: #08bd80;
 }
 /* media query on header */
 @media only screen and (max-width: 950px) {
-  .wrapper img{
+  .wrapper img {
     width: 144px;
     height: 206px;
     margin-top: 100px;
@@ -97,290 +97,385 @@
   .wrapper {
     padding-top: 50px;
   }
-  .wrapper_content h1{
+  .wrapper_content h1 {
     text-size-adjust: 100%;
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-bottom: 5px; 
+    font: "San Francisco", Helvetica, Arial, san-serif;
+    padding-bottom: 5px;
   }
-   .wrapper_content p{
+  .wrapper_content p {
     text-size-adjust: 100%;
     font-size: 14px;
     line-height: 120%;
     width: 100%;
     text-align: center;
     color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
+    font: "San Francisco", Helvetica, Arial, san-serif;
     padding-top: 0px;
-   }
-   .discount_logo img{
+  }
+  .discount_logo img {
     margin: 5px;
     margin-top: -4px;
     width: 25px;
     height: 25px;
-   }
+  }
 }
 
 @media only screen and (max-width: 750px) {
-  .left_img{
-    visibility: hidden;
-    max-width: 0%;
-    max-height: 0%;
-  }
-  .right_boy{
-    width: 100px;
-    height: 206px;
-    margin-top: 100px;
-  }
-  .wrapper_content{
-    padding-left: 0px;
-  }
-  .wrapper{
-     border: 1px solid red;
+  .left_to_right {
+    justify-content: right;
   }
 }
 
+.introduction_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.introduction {
+  text-align: center;
+}
+.combat {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.Liveclasses_shedule {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.Liveclasses_shedule img {
+  height: 100px;
+  width: 100px;
+}
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.cursol {
+  margin: 100px;
+  border: 1px solid red;
+}
 
+.left_img {
+  visibility: hidden;
+  max-width: 0%;
+  max-height: 0%;
+}
+.right_boy {
+  width: 100px;
+  height: 206px;
+  margin-top: 100px;
+}
+.wrapper_content {
+  padding-left: 0px;
+}
+.wrapper {
+  border: 1px solid red;
+}
 
 /* Intoduction page css */
-.intro{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 100px;
-    background-color: #ffffff;
-    text-size-adjust: 100%;
-    border: 1px solid white;
-    padding-top: 20px;
+.intro {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  text-size-adjust: 100%;
+  border: 1px solid white;
+  padding-top: 20px;
 }
-.introduction p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 10px;
-}
-.introduction button{
-    font-size: 12px;
-    text-align: center;
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding: 7px;
-    background-color: rgb(236, 135, 18);
-    color: #ffff;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+.introduction p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 120%;
+  width: 100%;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 10px;
 }
 
-.introduction h3{
-    text-size-adjust: 100%;
-    font-size: 30px;
-    width: 100%;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
+.introduction button {
+  font-size: 12px;
+  text-align: center;
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding: 7px;
+  background-color: rgb(236, 135, 18);
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-.introduction_icon{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px;
-}
-.introduction_icon img{
-    height: 34px;
-    width: 50%;
+.introduction h3 {
+  text-size-adjust: 100%;
+  font-size: 30px;
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
 }
 
-.introduction_icon h2, h3{
-    text-size-adjust: 100%;
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-    margin-left: 10px;
+.introduction_icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
 }
-.introduction_icon p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 10px;
-    margin-left: 10px;
+.introduction_icon img {
+  height: 34px;
+  width: 50%;
 }
-.plan_607{
-    padding-left: 40px;
+
+.introduction_icon h2,
+h3 {
+  text-size-adjust: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  margin-left: 10px;
 }
-.plan_607 span{
-    color: rgb(0, 89, 255);
+.introduction_icon p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 10px;
+  margin-left: 10px;
 }
-.introduction{
+.plan_607 {
+  padding-left: 40px;
+}
+.plan_607 span {
+  color: rgb(0, 89, 255);
+}
+.introduction {
   text-align: center;
 }
 
 /* combat page css */
-.combat{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10% 100px 10%;
-    background-color: #ffffff;
-    text-size-adjust: 100%;
-    padding: 50px;
+.combat {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10% 100px 10%;
+  background-color: #ffffff;
+  text-size-adjust: 100%;
+  padding: 50px;
 }
-.combat button{
-    padding: 10px;
-    text-size-adjust: 100%;
-    font-size: 14px;
-    color: rgb(60, 72, 82);
-    font-weight: 600;
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    margin: 10px;
+.combat button {
+  padding: 10px;
+  text-size-adjust: 100%;
+  font-size: 14px;
+  color: rgb(60, 72, 82);
+  font-weight: 600;
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  margin: 10px;
 }
-.combat_left_img{
-    height: 25%;
-    width: 25%;
+.combat_left_img {
+  height: 25%;
+  width: 25%;
 }
-.combat h1{
-    text-size-adjust: 100%;
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-    margin-left: 10px;
+.combat h1 {
+  text-size-adjust: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  margin-left: 10px;
 }
-.combat p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 10px;
-    margin-left: 10px;
+.combat p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 10px;
+  margin-left: 10px;
 }
 /* live class css */
 
-.Liveclasses_shedule{
-    /* border: 1px solid red; */
-    justify-content: space-between;
-    margin: 0px 10% 100px 10%;
-    background-color: #ffffff;
-    text-size-adjust: 100%;
-    padding: 20px;
-    display: flex;
+.Liveclasses_shedule {
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin: 0px 10% 100px 10%;
+  background-color: #ffffff;
+  text-size-adjust: 100%;
+  padding: 20px;
+  display: flex;
 }
-.free_live_class{
-    padding: 25px;
-    margin-left: 40px;
-}
-
-.see_all{
-    border-bottom: #08bd80;
-    border-style: none none dotted none;
-    font-weight: 700;
-    color: #08bd80;
+.free_live_class {
+  padding: 25px;
+  margin-left: 40px;
 }
 
-.free_live_class p{
-    text-size-adjust: 100%;
-    font-size: 14px;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.free_live_class button{
-    padding: 8px;
-    width: 80px;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: orange;
-    border: none;
-    border-radius: 5px;
-    color: #ffff;
-}
-.free_live_class h3{
-    text-size-adjust: 100%;
-    font-size: 30px;
-    width: 100%;
-    font-weight: 500;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-    margin-left: -22px;
+.see_all {
+  border-bottom: #08bd80;
+  border-style: none none dotted none;
+  font-weight: 700;
+  color: #08bd80;
 }
 
-.practice_arpit{
-    display: flex;
-    padding: 10px;
-    margin-right: 40px;
+.free_live_class p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.practice_arpit img{
-    width: 110px;
-    height: 80;
-    size-adjust: 100%;
-    border-radius: 5px;
-    margin-right: 15px;
+.free_live_class button {
+  padding: 8px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
 }
-.practice_arpit p{
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-size-adjust: 100%;
-    font-size: 14px;
+.free_live_class h3 {
+  text-size-adjust: 100%;
+  font-size: 30px;
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  margin-left: -22px;
+}
+
+.practice_arpit {
+  display: flex;
+  padding: 10px;
+  margin-right: 40px;
+}
+.practice_arpit img {
+  width: 110px;
+  height: 80;
+  size-adjust: 100%;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.practice_arpit p {
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-size-adjust: 100%;
+  font-size: 14px;
 }
 
 /* coursole page */
-.top_educator{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-.top_educator h2{
-    text-size-adjust: 100%;
-    font-size: 30px;
-    width: 100%;
-    font-weight: 500;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-    text-decoration-style: solid;
-    text-decoration-line: none;
-}
-.top_educator p{
-   text-size-adjust: 100%;
-    font-size: 14px;
-    color: rgb(60, 72, 82);
-    font: 'San Francisco', Helvetica, Arial, san-serif;
-}
-.carousel{
-    display: flex;
-    justify-content: space-between;
-}
-.cursol{
-    /* border: 1px solid red; */
-    margin: 0px 10% 100px 10%;
-}
-
-.subscription_card{
+.top_educator {
   display: flex;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.top_educator h2 {
+  text-size-adjust: 100%;
+  font-size: 30px;
+  width: 100%;
+  font-weight: 500;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+}
+.top_educator p {
+  text-size-adjust: 100%;
+  font-size: 14px;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+}
+.carousel {
+  display: flex;
+  justify-content: space-between;
+}
+.cursol {
+  /* border: 1px solid red; */
+  margin: 0px 10% 100px 10%;
+}
+
+.subscription_card {
+  display: flex;
+  justify-content: space-between;
+}
+.ndasubscription_pay {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+}
+.ndasubscription_pay h2 {
+  text-size-adjust: 100%;
+  font-size: 36px;
+  width: 100%;
+  font-weight: 700;
+  /* color: rgb(60, 72, 82); */
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.ndasubscription_pay h4 {
+  text-decoration-style: solid;
+  text-decoration-line: none;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  text-size-adjust: 100%;
+  font-size: 22px;
+  width: 100%;
+  font-weight: 700;
+}
+.Learningapp {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+  text-size-adjust: 100%;
+  border: 1px solid white;
+  padding: 20px;
+}
+.Learningapp_img {
+  width: 50%;
+  height: 500px;
+}
+.img_apple {
+  height: 100px;
+  width: 180px;
+  margin-left: 20px;
+}
+.Learningapp h1 {
+  text-size-adjust: 100%;
+  font-size: 30px;
+  width: 100%;
+  font-weight: 700;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  text-decoration-style: solid;
+  text-decoration-line: none;
   padding: 50px;
 }
-.Learningapp{
-    display: flex;
-}
-.Learningapp_img{
-    width: 70%;
-    height: 700px;
+.Learningapp p {
+  text-size-adjust: 100%;
+  font-size: 24px;
+  font-weight: 700px;
+  color: rgb(60, 72, 82);
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  padding-bottom: 10px;
+  padding-left: 50px;
 }

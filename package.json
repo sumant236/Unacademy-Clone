@@ -28,7 +28,6 @@
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json"
   },
-  "eslintConfig": {},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -40,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.69.1"
   }
 }
