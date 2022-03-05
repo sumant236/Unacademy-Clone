@@ -8,7 +8,6 @@ import { ExplorePage } from './component/Explore/ExplorePage';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 
-
 function App() {
   return (
     <div className="App">

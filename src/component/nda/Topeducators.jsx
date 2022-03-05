@@ -39,9 +39,7 @@ function Topeducators() {
             </div>  
             <Link to='' className={style.view_sub}>See all</Link>        
         </div>    
-                <Carousel
-                    style={{ visibility: hidden}}
-                >
+                <Carousel>
                 {items.map(item =>
                    <div key={item.id}>
                         <div className={style.carousel}>

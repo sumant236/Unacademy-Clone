@@ -2,10 +2,6 @@
     font-family: "San Francisco";
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
-body{
-    font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
-    color: #3C4852;
-}
 
 .searchInput{
     margin-left: 10px;
