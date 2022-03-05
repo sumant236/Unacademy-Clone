@@ -21,7 +21,6 @@ input::placeholder{
 }
 .inputContainer{
     background-image: linear-gradient(#fff,rgb(229 244 255 / 44%));
-    padding-top: 72px;
 }
 .icon{
     margin-top: 2px;
@@ -91,7 +90,6 @@ p{
     width: 224px;
     margin: 0px;
 }
-
 .topics{
     max-width: 90%;
     margin: 72px auto;
