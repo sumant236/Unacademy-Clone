@@ -11,10 +11,14 @@ function Super30() {
           <p>Starts on 18 Feb 2022</p>
           <p>Afternoon classes</p>   
           <p>Arpit Chaudhry, Sunny Verma
-            <br/> and 3 more
+            and 3 more
           </p>  
         </div>
-      <h5>View full schedule</h5>
+       <hr />
+      <div className={style.view_schehule_}>
+        <img src='https://static.uacdn.net/production/_next/static/images/batch-play-all.svg?q=75&w=32' alt='dicr' />
+        <h5>View full schedule</h5>
+      </div>
     </div>        
   )
 }

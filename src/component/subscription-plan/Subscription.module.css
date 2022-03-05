@@ -1,0 +1,190 @@
+.main{
+
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+    background-color: #FCFCFC;
+}
+
+.plandetails{
+
+    width: 1136px;
+    margin: auto;
+    align-items: center;
+    margin-top: 3%;
+    display: flex;
+    
+     
+}
+.heading{
+
+    text-align: center;
+}
+
+.ndaheading{
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3C4852;
+}
+.ndatagline{
+
+    font-size: 16px;
+    line-height: 150%;
+    color: #7A8B94;
+    font-weight: normal;
+
+}
+
+.plus{
+
+    display: block;
+    width: 35%;
+    padding: 3%;
+    border: 1px solid #E9EEF2;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+}
+.head{
+
+    display: flex;
+}
+.headtagline{
+
+    width: 57%;
+}
+.headtagline h2{
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #3C4852;
+    margin: 0px;
+}
+.headtagline p{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+    color:  #7A8B94 ;
+    margin-top: 8px;
+}
+.logo img{
+    
+    width: 150px;
+    margin-left: 40px;
+}
+
+.pluscontent div{
+
+    display: flex;
+
+    margin-top: 20px;
+}
+.iconiccontent{
+
+    display: flex;
+    margin-top: 25px;
+}
+
+.checked div{
+
+    display: flex;
+
+    margin-top: 20px;
+}
+
+.check{
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.check img{
+
+    width: 30px;
+    height: 7%;
+}
+
+.check h5{
+
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0px;
+    font-weight: normal;
+    color: #3C4852;
+    margin-left: 16px;
+}
+
+.plusbutton{
+
+    text-align: center;
+}
+
+.plusbutton button{
+
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    color: #FCFCFC;
+    font-weight: bold;
+    background-color: #08bd80;
+    text-size-adjust: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.iconic{
+
+    display: block;
+    width: 50%;
+    padding: 3%;
+    padding-left: 30px;
+    border: 1px solid #E9EEF2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.iconicbutton{
+
+    text-align: center;
+    margin-top: 20pxcf;
+}
+
+.btn1{
+
+
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    color: #FCFCFC;
+    font-weight: bold;
+    background-color: #08bd80;
+    text-size-adjust: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn2{
+
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #E9EEF2;
+    border-radius: 8px;
+    background-color: white;
+    color:#08bd80;
+    margin-left: 20px;
+
+
+}
+ 
+
+

@@ -1,4 +1,4 @@
-.cash-heading {
+.cash_heading {
   font-weight: normal;
   line-height: 150%;
   color: #3c4852;
@@ -11,11 +11,11 @@
   color: #7a8b94;
 }
 
-.image-wrapper {
+.image_wrapper {
   margin-left: 4px;
 }
 
-.pay-green-btn {
+.pay_green_btn {
   position: relative;
   border: none;
   display: flex;
@@ -36,7 +36,7 @@
   background-color: #08bd80;
   margin-top: 16px;
 }
-.how-wrapper {
+.how_wrapper {
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
@@ -44,18 +44,18 @@
   margin: 24px auto;
 }
 
-.first-point {
+.first_point {
   display: flex;
   max-width: 300px;
   margin-bottom: 16px;
 }
 
-.numerical-wrapper {
+.numerical_wrapper {
   flex: 1 1 0%;
   position: relative;
 }
 
-.inner-numerical-wrapper {
+.inner_numerical_wrapper {
   position: absolute;
   top: -12px;
   min-height: 100%;
@@ -63,7 +63,7 @@
   display: flex;
 }
 
-.inner-first-point {
+.inner_first_point {
   color: #08bd80;
   margin-left: 12px;
   font-weight: bold;
@@ -72,11 +72,11 @@
   margin-top: 0px;
 }
 
-.generate-wrapper {
+.generate_wrapper {
   flex: 5 1 0%;
 }
 
-.generate-heading {
+.generate_heading {
   margin-bottom: 4px;
   font-weight: 600;
   font-size: 16px;
@@ -86,19 +86,19 @@
   font-family: sans-serif !important;
 }
 
-.generate-desc {
+.generate_desc {
   font-size: 14px;
   line-height: 150%;
   color: #3c4852;
   font-family: sans-serif !important;
 }
 
-.inner-numerical-wrapper img {
+.inner_numerical_wrapper img {
   margin-top: 0px;
   margin-bottom: 60px;
 }
 
-.geanerate-desc-link {
+.geanerate_desc_link {
   font-size: 14px;
   line-height: 150%;
   color: #08bd80;
@@ -107,7 +107,7 @@
   text-decoration: none;
 }
 
-.continue-btn {
+.continue_btn {
   position: relative;
   border: none;
   display: flex;
@@ -131,7 +131,7 @@
   margin-top: 24px;
 }
 
-.cash-rec-wrapper {
+.cash_rec_wrapper {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -139,21 +139,21 @@
   align-items: center;
 }
 
-.cash-rec-pow {
+.cash_rec_pow {
   font-size: 10px;
   color: #7a8b94;
 }
 
-.cash-icic {
+.cash_icic {
   margin-left: 4px;
 }
 
-.cash-rec-gen {
+.cash_rec_gen {
   text-align: center;
   margin-top: 48px;
 }
 
-.cash-rec-gen-heading {
+.cash_rec_gen_heading {
   font-weight: bold;
   font-size: 20px;
   line-height: 150%;
@@ -161,7 +161,7 @@
   margin: 16px 0px 4px;
 }
 
-.cash-rec-desc {
+.cash_rec_desc {
   font-weight: normal;
   font-size: 14px;
   line-height: 150%;
@@ -170,7 +170,7 @@
   font-family: sans-serif;
 }
 
-.cash-rec-gen-btn {
+.cash_rec_gen_btn {
   position: relative;
   border: none;
   display: flex;

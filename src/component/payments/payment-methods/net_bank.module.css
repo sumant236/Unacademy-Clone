@@ -1,4 +1,4 @@
-.net-wrapper {
+.net_wrapper {
   display: flex;
   align-items: center;
   border: 1px solid #e9eef2;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.net-green-wapper {
+.net_green_wapper {
   display: flex;
   align-items: center;
   border: 1px solid #08bd80;
@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.icici-bank-wrapper {
+.icici_bank_wrapper {
   width: 32px;
   height: 32px;
   margin-right: 16px;
@@ -33,20 +33,20 @@
   font-family: sans-serif !important;
 }
 
-.icici-bank-wrapper img {
+.icici_bank_wrapper img {
   height: 100%;
   width: 100%;
   margin-left: 5px;
 }
 
-.bank-heading {
+.bank_heading {
   font-weight: 600;
   font-size: 14px;
   line-height: 150%;
   margin: 0px;
 }
 
-.net-btn {
+.net_btn {
   position: relative;
   border: none;
   display: flex;
@@ -67,20 +67,4 @@
   background-color: #08bd80;
 
   margin-top: 16px;
-}
-
-.card_number {
-  line-height: 21px;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: sans-serif !important;
-  width: 100%;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid #e9eef2;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  padding: 16px;
 }

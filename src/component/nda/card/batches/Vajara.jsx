@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './batches.module.css'
-
 function Vajara() {
   return (
     <div className = {style.batch}>
@@ -11,10 +10,14 @@ function Vajara() {
           <p>Starts tomorrow 2 Mar 2022</p>
           <p>Morning classes</p>   
           <p>Mayank Parashar, Sumit Kumar and
-            <br/> Anish Pathak
+            Anish Pathak
           </p>  
         </div>
-      <h5>View full schedule</h5>
+     <hr />
+      <div className={style.view_schehule_}>
+        <img src='https://static.uacdn.net/production/_next/static/images/batch-play-all.svg?q=75&w=32' alt='dicr' />
+        <h5>View full schedule</h5>
+      </div>
     </div>        
   )
 }

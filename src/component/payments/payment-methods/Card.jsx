@@ -7,15 +7,15 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Button from '@mui/material/Button';
-
+import style from '../details.module.css'
 
 
 export default function Card() {
-  const [cardNo, setCardNo] = useState();
-  const [cardName,setCardName]=useState()
-  const [mm, setMM] = useState();
-  const [yy, setYY] = useState();
-  const [cv, setCV] = useState();
+  const [cardNo, setCardNo] = useState("");
+  const [cardName,setCardName]=useState("")
+  const [mm, setMM] = useState("");
+  const [yy, setYY] = useState("");
+  const [cv, setCV] = useState("");
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -23,6 +23,11 @@ export default function Card() {
   };
 
   const handleClose = () => {
+    setCV(" ");
+    setCardName(" ");
+    setMM(" ");
+    setYY(" ");
+    setCardNo(" ")
     setOpen(false);
   };
 
@@ -30,32 +35,31 @@ export default function Card() {
 
   return (
       <div >
-      <input type="text" placeholder="Card number" name="card_number" onChange={(e)=>setCardNo(e.target.value)} id="card_number" className="card_number" autocomplete="off" data-form_id="#payment_form_new_card_1" onkeypress="return isOnlyNumeric(event);" maxlength="23" data-merchant_id="unacademy"></input>
-          <div className='card-details-wrapper'>
-              <div className='first'>
-                 <h6 className='valid'>Valid through</h6> 
-                  <div className='frame'>
-                      <input type="text" placeholder="MM" name="card_exp_month" id="card_exp_month" onChange={(e)=>setMM(e.target.value)} className="card_exp_month" autocomplete="off" data-form_id="#payment_form_new_card_1" maxlength="2" onkeypress="return isOnlyNumeric(event);"></input>
-                      <h6 className='slash'>/</h6>
-                      <input type="text" placeholder="YY" onChange={(e)=>setYY(e.target.value)} name="card_exp_year" id="card_exp_year" className="card_exp_year" autocomplete="off" data-form_id="#payment_form_new_card_1" maxlength="2" onkeypress="return isOnlyNumeric(event);"></input>
+      <input type="text" value={cardNo} placeholder="Card number" name="card_number" onChange={(e) => setCardNo(e.target.value)} id="card_number" className={style.card_number} ></input>
+          <div className={style.card_details_wrapper}>
+              <div className={style.first}>
+                 <h6 className={style.valid}>Valid through</h6> 
+                  <div className={style.frame}>
+            <input type="text" placeholder="MM" name="card_exp_month" id="card_exp_month" onChange={(e) => setMM(e.target.value)} className={style.card_exp_month} value={mm} ></input>
+            <h6 className={style.slash}>/</h6>
+            <input type="text" value={yy} placeholder="YY" onChange={(e) => setYY(e.target.value)} name="card_exp_year" id="card_exp_year" className={style.card_exp_year} ></input>
                   </div>
               </div>
               <div>
-          <input type="text" placeholder="CVV" onChange={(e)=>{setCV(e.target.value)}} name="security_code" id="security_code" className="security_code" autocomplete="off" data-form_id="#payment_form_new_card_3" maxlength="4" onkeypress="return isOnlyNumeric(event);"></input>
+          <input type="text" value={cv} placeholder="CVV" onChange={(e) => { setCV(e.target.value) }} name="security_code" id="security_code" className={style.security_code} ></input>
                      </div>
           </div>
-          <input type="text" placeholder="Name on the Card" onChange={(e)=>{setCardName(e.target.value)}} name="card_number" id="card_name" className="card_number" autocomplete="off" data-form_id="#payment_form_new_card_1" onkeypress="return isOnlyNumeric(event);" maxlength="23" data-merchant_id="unacademy"></input>
+      <input type="text" value={cardName} placeholder="Name on the Card" onChange={(e) => { setCardName(e.target.value) }} name="card_number" id="card_name" className={style.card_number} ></input>
       <button className={cardName && mm && yy && cv && cardNo ?
-        "pay-green-btn" : "pay-btn"
+        style.pay_green_btn : style.pay_btn
       } onClick={() => { handleClickOpen() }}>
         Pay 
       </button>
       <Dialog
         open={open}
         onClose={handleClose}
-        aria-labelledby="draggable-dialog-title"
       >
-        <DialogTitle style={{ cursor: 'move' }} id="draggable-dialog-title">
+        <DialogTitle style={{ cursor: 'move' }}>
           Payment Successfull
         </DialogTitle>
        

@@ -8,7 +8,7 @@ function Shyam() {
         <div>
             <h1>Shyam Sharma</h1> 
             <p>
-                EX NAVODYAN GAT(EXPART)<br />
+                EX NAVODYAN GAT(EXPART)
                 Qualified UPSC CDS, NDA Selected 
                 in AIRFORCE Mentor for DEFENCE ASPIRANT  
             </p> 

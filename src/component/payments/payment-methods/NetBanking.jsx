@@ -1,6 +1,6 @@
 import React from 'react'
-import '../payment-methods/net_bank.css'
 import { useState } from 'react';
+import style from './net_bank.module.css'
 import { useNavigate } from "react-router-dom";
 
 export default function NetBanking() {
@@ -15,15 +15,15 @@ export default function NetBanking() {
 
     return (
       <div>
-      <button className={isNet?'net-wrapper':'net-green-wapper'} onClick={()=>setIsNet(!isNet)}>
+        <button className={isNet ? style.net_wrapper :style.net_green_wapper} onClick={()=>setIsNet(!isNet)}>
          
-              <div className='icici-bank-wrapper'>
+          <div className={style.icici_bank_wrapper}>
                   <img src="https://static.uacdn.net/app_icons/payments/icici.png" />
               </div>
-              <h6 class="bank-heading">ICICI Netbanking</h6>
+          <h6 class={style.bank_heading}>ICICI Netbanking</h6>
         
             </button>
-            <button className='net-btn' onClick={netPayHander}>
+        <button className={style.net_btn} onClick={netPayHander}>
         Pay 
       </button>
             </div>

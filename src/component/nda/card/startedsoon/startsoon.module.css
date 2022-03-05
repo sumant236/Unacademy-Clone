@@ -1,0 +1,31 @@
+.start_soon{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #ffff;
+   margin: 15px;
+}
+
+.start_soon img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.start_soon h4{
+    text-size-adjust: 100%;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+}
+.start_soon p{
+    text-size-adjust: 100%;
+    font-size: 14px;
+    color: rgb(60, 72, 82);
+    font: 'San Francisco', Helvetica, Arial, san-serif;
+}
+
