@@ -64,7 +64,7 @@ function Introduction() {
                 </h3>
             </div>
             <div>
-                <Link to='' className={style.view_sub}>View pricing</Link>
+                <Link to='subscribe' className={style.view_sub}>View pricing</Link>
             </div>            
         </div>  
         </div>

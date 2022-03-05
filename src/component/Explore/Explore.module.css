@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: "San Francisco";
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
@@ -11,17 +11,16 @@ body{
     margin-left: 10px;
     width: 100%;
 }
-h1{
+.h1Tag{
     font-size: 38px;
 }
-input::placeholder{
+.searchInput::placeholder{
     color: #7a8b94;
     font-size: 14px;
     font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
 }
 .inputContainer{
     background-image: linear-gradient(#fff,rgb(229 244 255 / 44%));
-    padding-top: 72px;
 }
 .icon{
     margin-top: 2px;
@@ -30,8 +29,11 @@ input::placeholder{
     display: flex;
     background: #fff;
     width: 360px;
-    padding: 17.8px;
+    padding: 0px 17.8px;
+    align-items: center;
+    height: 56px;
     margin-top: 32px;
+    border-radius: 6px;
 }
 .searchBox{
     padding-top: 72px;
@@ -67,7 +69,7 @@ input::placeholder{
     max-width: 848px;
     margin-bottom: 50px;
 }
-h5{
+.h5Tag{
     font-size: 14px;
     font-weight: 100;
 }
@@ -75,6 +77,23 @@ h5{
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+}
+.navbarDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 72px;
+    align-items: center;
+    background: #FBFCFC;
+}
+.loginbutton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: hsl(160, 92%, 39%);
+    color: #fff;
 }
 .course{
     background: #fff;
@@ -85,13 +104,14 @@ h5{
     max-width: 272px;
     cursor: pointer;
 }
-p{
+.linkP{
+    color: #3C4852;
+    text-decoration: none;
     font-size: 14px;
     font-weight: 550;
     width: 224px;
     margin: 0px;
 }
-
 .topics{
     max-width: 90%;
     margin: 72px auto;
@@ -99,4 +119,4 @@ p{
     gap: 16px;
     flex-wrap: wrap;
     flex-flow: row;
-} */
+}
