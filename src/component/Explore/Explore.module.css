@@ -29,8 +29,11 @@ input::placeholder{
     display: flex;
     background: #fff;
     width: 360px;
-    padding: 17.8px;
+    padding: 0px 17.8px;
+    align-items: center;
+    height: 56px;
     margin-top: 32px;
+    border-radius: 6px;
 }
 .searchBox{
     padding-top: 72px;
@@ -75,6 +78,23 @@ h5{
     flex-wrap: wrap;
     gap: 16px;
 }
+.navbarDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 72px;
+    align-items: center;
+    background: #FBFCFC;
+}
+.loginbutton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: hsl(160, 92%, 39%);
+    color: #fff;
+}
 .course{
     background: #fff;
     padding: 24px 24px 24px 24px;
@@ -84,7 +104,9 @@ h5{
     max-width: 272px;
     cursor: pointer;
 }
-p{
+.linkP{
+    color: #3C4852;
+    text-decoration: none;
     font-size: 14px;
     font-weight: 550;
     width: 224px;

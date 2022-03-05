@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
+import { Login } from '../Login/Login';
 import { Navbar } from '../Navbar/Navbar';
 import { Courses } from './Courses';
 import style from './Explore.module.css'
@@ -30,7 +31,7 @@ export const ChooseYourGoal = () => {
   return (
     <div>
       <div className={style.inputContainer}>
-        <Navbar />
+        <Login />
         <div className={style.searchBox}>
             <h1>Choose your goal</h1>
             <div className={style.inputDiv}>

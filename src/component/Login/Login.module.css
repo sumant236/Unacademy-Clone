@@ -4,8 +4,7 @@
     font-size: 24px;
     padding: 0px 0px 36px;
 }
-
-h1{
+.h1Tag{
     color: #3C4852;
     font-size: 32px;
     font-family: AvertaStd,-apple-system,BlinkMacSystemFont,sans-serif!important;
@@ -111,4 +110,21 @@ h1{
 .checkBox{
     font-size: 12px;
     margin-bottom: 30px;
+}
+.loginButton{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    background: hsl(160, 92%, 39%);
+    color: #fff;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 72px;
+    align-items: center;
+    background: #FBFCFC;
 }

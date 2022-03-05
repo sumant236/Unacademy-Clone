@@ -25,13 +25,13 @@ function App() {
        {/* <Page/> */}
       {/* <Subscription/> */}
        {/* <Details/> */}
-       {/* <ExplorePage /> */}
         {/* <Login handleClick={handleClick}/> */}
         {/* {click?<Email/>:<Login handleClick={handleClick}/>} */}
         {/* <Email/> */}
         {/* <OtpPage/> */}
       <Routes>
-        <Route path='/' element={<Page/>}/>
+       <Route path='/' element={<ExplorePage />}/>
+        <Route path='page' element={<Page/>}/>
         <Route path='subscribe' element={<Subscription/>}/>
       </Routes>
       {/* <Details/> */}
