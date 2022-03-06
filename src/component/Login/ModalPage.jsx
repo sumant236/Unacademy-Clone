@@ -12,10 +12,7 @@ export const ModalPage = () => {
 
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const handleLogin = () => {
-      setValue(true)
-      console.log(value)
-    };
+    const handleLogin = () => setValue(true)
 
 
     const style = {

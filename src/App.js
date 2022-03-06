@@ -23,10 +23,6 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Login handleClick={handleClick}/> */}
-      {/* {click?<Email/>:<Login handleClick={handleClick}/>} */}
-      {/* <Email/> */}
-      {/* <OtpPage/> */}
       <Routes>
         <Route path='/' element={<ExplorePage />}/>
         <Route path='nda' element={<Page/>}/>
