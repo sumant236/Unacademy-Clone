@@ -9,18 +9,11 @@ import { ExplorePage } from './component/Explore/ExplorePage';
 import { Email } from './component/Login/Email';
 import { VerificationPage } from './component/Login/VerificationPage';
 import { Navbar } from './component/Navbar/Navbar';
-import { useState } from 'react';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 
 function App() {
 
-  const [click, setClick] = useState(false);
-
-  const handleClick = () =>{
-    setClick(true);
-  }
-  
   return (
     <div className="App">
 

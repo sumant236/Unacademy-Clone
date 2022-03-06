@@ -14,7 +14,7 @@ export const Subscription = () => {
   const hamstyle = {
     position: "absolute",
     left: "50%",
-    width: "40%",
+    width: "50%",
     bgcolor: "background.paper",
     boxShadow: 24,
     p: 4,
@@ -26,16 +26,14 @@ export const Subscription = () => {
     height: "100%",
     padding: "24px 115px 0px 48px",
   };
-  const [display, setDisplay] = useState(false)
+
+  const [display, setDisplay] = useState(false);
 
   const  handlePopin =()=> setDisplay(true);
-  const handlePopout = () => setDisplay(false);
+  const  handlePopout =()=> setDisplay(false);
   
-  const { con, setCon } = useContext(AuthContext);
-  
-  useEffect(() => {
-     console.log(con);
-  }, [])
+  const {con, setCon} = useContext(AuthContext);
+  console.log(con)
   
   return (
     <>
@@ -81,7 +79,8 @@ export const Subscription = () => {
               
             </div>
             <div className={style.plusbutton}>
-            <Link to='plan' onClick={setCon(false)}><button>Select PLUS</button></Link> 
+            
+            <Link to='plan' onClick={()=>setCon(false)}><button>Select PLUS</button></Link> 
             </div>
           </div>
 
@@ -128,14 +127,14 @@ export const Subscription = () => {
                 </div>
               </div>
               <div className={style.iconicbutton}>
-              <Link to='plan'>
-                <button className={style.btn1} onClick={setCon(true)}>
-                  Select ICONIC
-                </button>
-              </Link>  
-                <button className={style.btn2} onClick={handlePopin}>
-                  Learn more
-                </button>
+                <Link to='plan'>
+                  <button className={style.btn1}  onClick={()=>setCon(true)}>
+                    Select ICONIC
+                  </button>
+                </Link>  
+                  <button className={style.btn2} onClick={handlePopin}>
+                    Learn more
+                  </button>
                 
               </div>
             </div>

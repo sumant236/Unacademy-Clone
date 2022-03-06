@@ -847,23 +847,6 @@
     }
   ],
   "users": [
-    {
-      "name": "sdfsd",
-      "password": "dfsdf",
-      "email": "fsddsf",
-      "id": 1
-    },
-    {
-      "password": "dsfsd",
-      "name": "sdfsd",
-      "email": "dsfsd",
-      "id": 2
-    },
-    {
-      "password": "sdfsd",
-      "name": "sdfs",
-      "email": "sdfsd",
-      "id": 3
-    }
+    
   ]
 }

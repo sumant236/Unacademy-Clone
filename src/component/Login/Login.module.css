@@ -66,7 +66,9 @@
 }
 .mobileNo{
     padding: 16px 24px;
-    width: 90%;
+    max-width: 100%;
+    border: none;
+    width: 100%;
 }
 .country{
     display: flex;
@@ -79,13 +81,16 @@
     max-width: 80%;
     margin-bottom: 32px;
 }
-.inputBox:hover, .inputBox:focus, .inputBoxes:hover, .inputBoxes:focus{
+.countryCode:hover, .countryCode:focus, .inputBoxes:hover, .inputBoxes:focus{
     transition: border-color 400ms ease-in-out 0s;
     border: 1px solid black;
+    border-radius: 6px;
 }
 .inputBoxes{
     padding: 16px 24px;
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
+    border: none;
     border-radius: 6px;
 }
 .h6Email{

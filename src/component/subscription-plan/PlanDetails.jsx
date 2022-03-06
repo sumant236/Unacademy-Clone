@@ -12,13 +12,13 @@ import { Link } from 'react-router-dom'
 
 export const PlanDetails = () => {
 
-    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext)
+    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext);
 
-    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext)
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext);
     
     const [show, setShow] = useState(!con);
     const [view, setView] = useState(false);
-    const [value, setValue] = useState();
+    const [value, setValue] = useState("");
    
     const addDiscount=()=>{
 
@@ -63,11 +63,6 @@ export const PlanDetails = () => {
     const onIconic=()=>{
         setShow(false);
     }
-    const click = () =>{
-
-        console.log(value)
-        setValue()
-    }
 
   return (
     <div>
@@ -99,6 +94,7 @@ export const PlanDetails = () => {
                     (view?(<Plus2/>):(<Plus/>))
 
                 ):(<Iconic/>)}
+                
                 <p className={style.para}>To be paid as a one-time payment</p>
 
                 {view?(<></>):(<button className={style.viewPlans} onClick={onView}>View all plans</button>)}
