@@ -5,9 +5,9 @@ import { IoSearchOutline } from "react-icons/io5";
 function Search() {
   return (
     <div className={style.search_box}>
-        <input type="text" className={style.searchText} placeholder = "Type to Search.."/>
+        <input type="text" className={style.searchText} placeholder = "Search for courses, lessons, educators "/>
         <Link to=''>
-          <IoSearchOutline className={style.search_of_input} size = "25px" color='#3C4852'/>
+          <IoSearchOutline className={style.search_of_input} size = "25px"/>
         </Link>
     </div>
   )

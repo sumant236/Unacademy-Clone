@@ -7,6 +7,7 @@ import Vijaypath from './card/batches/Vijaypath';
 import style from './nda.module.css'
 import {Link} from 'react-router-dom'
 import Startedsoon from './Startedsoon';
+import { border, color } from '@mui/system';
 function Batches() {
     let items =
     [

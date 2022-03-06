@@ -1,5 +1,4 @@
 .navbar_border{
-    border: 1px solid red;
     height: 80px;
     padding: 20px;
     display: flex;
@@ -11,6 +10,22 @@
 .navbar_border > div:nth-child(1){
     width: 350px;
     height: 100%;
+    display: flex;
+}
+
+.selector_nda{
+    margin-top: -9px;
+    margin-left: 8px;
+}
+
+.day_hour_logo > button:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.day_hour_logo button{
+   border: none;
 }
 
 .loginBtn{
@@ -60,6 +75,9 @@ a.all_fun_right_side button{
 .searchText{
     width: 0px;
     border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
 }
 
 .search_of_input{

@@ -6,29 +6,17 @@ import Select from '@mui/material/Select';
 
 export default function SelectAutoWidth() {
   const [age, setAge] = React.useState('');
-
   const handleChange = (event) => {
     setAge(event.target.value);
   };
-
   return (
     <div>
-      <FormControl sx={{ m: 1, minWidth: 80 }}>
-        <InputLabel id="demo-simple-select-autowidth-label">Age</InputLabel>
-        <Select
-          labelId="demo-simple-select-autowidth-label"
-          id="demo-simple-select-autowidth"
-          value={age}
-          onChange={handleChange}
-          autoWidth
-          label="Age"
-        >
-          <MenuItem value="">
-            <em>None</em>
-          </MenuItem>
-          <MenuItem value={10}>Twenty</MenuItem>
-          <MenuItem value={21}>Twenty one</MenuItem>
-          <MenuItem value={22}>Twenty one and a half</MenuItem>
+      <FormControl sx={{ m: 0, minWidth: 80 }}>
+        <InputLabel id="demo-simple-select-autowidth-label">NDA</InputLabel>
+        <Select>
+          <MenuItem value={10}>NDA</MenuItem>
+          <MenuItem value={21}>BANK</MenuItem>
+          <MenuItem value={22}> + Add another goal</MenuItem>
         </Select>
       </FormControl>
     </div>

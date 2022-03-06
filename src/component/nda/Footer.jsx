@@ -13,7 +13,7 @@ function Footer() {
                 <img src='https://cdn.icon-icons.com/icons2/2066/PNG/512/instagram_icon_125245.png' alt='insta' />  
                 <img src='https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png' alt='linked_in'/>      
            </div>  
-           <Link to='/'  className={style.footer_css_direction_link} >© 2022 Sorting Hat Technologies Pvt Ltd</Link>
+           <Link to='/'  className={style.footer_css_direction_link} >© 2022 @Team Alok Sumant Gursimar Saurabh</Link>
         </div>
         <div>
           <h5>COMPANY</h5>

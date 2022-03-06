@@ -72,6 +72,7 @@
   border: none;
   border-radius: 5px;
   width: auto;
+  cursor: pointer;
 }
 .discount_logo {
   display: flex;
@@ -87,47 +88,7 @@
   color: #08bd80;
 }
 
-/* media query on header */
-/* @media only screen and (max-width: 950px) {
-  .wrapper img {
-    width: 144px;
-    height: 206px;
-    margin-top: 100px;
-  }
-  .wrapper {
-    padding-top: 50px;
-  }
-  .wrapper_content h1 {
-    text-size-adjust: 100%;
-    font-size: 22px;
-    font-weight: 400;
-    text-align: center;
-    font: "San Francisco", Helvetica, Arial, san-serif;
-    padding-bottom: 5px;
-  }
-  .wrapper_content p {
-    text-size-adjust: 100%;
-    font-size: 14px;
-    line-height: 120%;
-    width: 100%;
-    text-align: center;
-    color: rgb(60, 72, 82);
-    font: "San Francisco", Helvetica, Arial, san-serif;
-    padding-top: 0px;
-  }
-  .discount_logo img {
-    margin: 5px;
-    margin-top: -4px;
-    width: 25px;
-    height: 25px;
-  }
-}
 
-@media only screen and (max-width: 750px) {
-  .left_to_right {
-    justify-content: right;
-  }
-} */
 
 /* intro page start */
 .introduction_icon {
@@ -474,4 +435,7 @@ h3 {
   font: "San Francisco", Helvetica, Arial, san-serif;
   padding-bottom: 10px;
   padding-left: 50px;
+}
+.Learningapp img:nth-child(1) {
+  margin-left: -26px;
 }
