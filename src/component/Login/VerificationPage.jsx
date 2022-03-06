@@ -23,10 +23,11 @@ export const VerificationPage = ({login}) => {
     const handleChange= (e) =>{
       let {name, value, type} = e.currentTarget;
       setUserData({...userData, [name]: value});
+      // console.log(userData)
     }
     
     // console.log({login});
-    const handleSubmit = async ({login}) =>{
+    const handleSubmit = async () =>{
       try {
         if(userData.name === ""){
           return err
@@ -38,7 +39,7 @@ export const VerificationPage = ({login}) => {
           password: "",
           email:""
         })
-        {login}
+        // login(userData)
         // console.log();
         setIsLoading(false);
       }
@@ -68,7 +69,7 @@ export const VerificationPage = ({login}) => {
             <label> I agree to Unacademy’s Terms & Privacy policy</label>
           </div>
           <div className={styles.btnAndEmail}>
-            <input type="submit" className={styles.loginBtn} onClick={handleSubmit} onClickCapture={login} value="Sign Up"/>
+            <input type="submit" className={styles.loginBtn} onClick={()=>{handleSubmit(); login()}}  value="Sign Up"/>
           </div>
     </>
   )

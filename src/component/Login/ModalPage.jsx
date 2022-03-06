@@ -17,7 +17,6 @@ export const ModalPage = () => {
     const handleLogin = () => setValue(true)
     const handleNavbar = () => {
       setLoginNavbar(true)
-      // console.log(loginNavbar);
       setOpen(false)
     };
 
