@@ -7,18 +7,19 @@ import { Slider } from './Slider'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
+import { Link } from 'react-router-dom'
 
 
 export const PlanDetails = () => {
 
-    const {value1,value2,value3,value4,value5,value6} = useContext(AuthContext)
+    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext);
 
-    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6} = useContext(AuthContext)
-
-    const [show, setShow] = useState(true);
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext);
+    
+    const [show, setShow] = useState(!con);
     const [view, setView] = useState(false);
-    const [value, setValue] = useState();
-
+    const [value, setValue] = useState("");
+   
     const addDiscount=()=>{
 
         
@@ -60,14 +61,9 @@ export const PlanDetails = () => {
         setShow(true);
     }
     const onIconic=()=>{
-
         setShow(false);
     }
-    const click = () =>{
 
-        console.log(value)
-        setValue()
-    }
   return (
     <div>
         <header className={style.ulogo}>
@@ -85,7 +81,8 @@ export const PlanDetails = () => {
                 <div className={style.topbuttons}>
 
                     <button onClick={onPlus} className={show?style.button1:style.btn1}>PLUS</button>
-                    <button onClick={onIconic} className={show?style.btn1:style.button2}>ICONIC</button>
+                    <button onClick={onIconic} className={show ? style.btn1 : style.button2}>ICONIC</button>
+                      
                 </div>
 
                 <div className={style.emi}>
@@ -114,7 +111,7 @@ export const PlanDetails = () => {
                     />
                     <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                   <button className={style.paybtn}>Proceed to pay</button>
+                <Link to='payment'><button className={style.paybtn}>Proceed to pay</button></Link> 
                 </div>
             </div>
         </div>

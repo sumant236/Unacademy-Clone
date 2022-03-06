@@ -49,7 +49,7 @@ export const VerificationPage = ({onLoggingIn, onLogin}) => {
     }
 
     return (
-    <div>
+    <>
           <h1>Enter OTP</h1>
           <div className={styles.link}><p className={styles.otpPTag}>We've sent an OTP to your registered mobile number</p></div>
           <div className={styles.inputBox}>
@@ -68,6 +68,6 @@ export const VerificationPage = ({onLoggingIn, onLogin}) => {
           <div className={styles.btnAndEmail}>
             <input type="submit" className={styles.loginBtn} onClick={handleSubmit} value="Log In"/>
           </div>
-    </div>
+    </>
   )
 }

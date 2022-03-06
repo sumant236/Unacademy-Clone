@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import style from "./Subscription.module.css";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { Hamburger } from './Hamburger';
-import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
+
 
 export const Subscription = () => {
 
   const hamstyle = {
     position: "absolute",
     left: "50%",
-    width: "40%",
+    width: "50%",
     bgcolor: "background.paper",
     boxShadow: 24,
     p: 4,
@@ -23,15 +26,15 @@ export const Subscription = () => {
     height: "100%",
     padding: "24px 115px 0px 48px",
   };
+
   const [display, setDisplay] = useState(false);
-  const navigate = useNavigate();
+
   const  handlePopin =()=> setDisplay(true);
   const  handlePopout =()=> setDisplay(false);
-
-  const selecthandler=()=>{
-    navigate('subscribe/plan-details')
-
-  }
+  
+  const {con, setCon} = useContext(AuthContext);
+  console.log(con)
+  
   return (
     <>
      
@@ -76,9 +79,8 @@ export const Subscription = () => {
               
             </div>
             <div className={style.plusbutton}>
-              <button onClick={selecthandler}>
-                Select PLUS
-              </button>
+            
+            <Link to='plan' onClick={()=>setCon(false)}><button>Select PLUS</button></Link> 
             </div>
           </div>
 
@@ -125,12 +127,14 @@ export const Subscription = () => {
                 </div>
               </div>
               <div className={style.iconicbutton}>
-                <button className={style.btn1}>
-                  Select ICONIC
-                </button>
-                <button className={style.btn2} onClick={handlePopin}>
-                  Learn more
-                </button>
+                <Link to='plan'>
+                  <button className={style.btn1}  onClick={()=>setCon(true)}>
+                    Select ICONIC
+                  </button>
+                </Link>  
+                  <button className={style.btn2} onClick={handlePopin}>
+                    Learn more
+                  </button>
                 
               </div>
             </div>

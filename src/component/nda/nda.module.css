@@ -2,12 +2,11 @@
   font-family: "San Francisco";
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
-
-/* * {
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-} */
+}
 .wrapper {
   margin: auto;
   text-align: center;
@@ -87,8 +86,9 @@
   border-style: none none dotted none;
   color: #08bd80;
 }
+
 /* media query on header */
-@media only screen and (max-width: 950px) {
+/* @media only screen and (max-width: 950px) {
   .wrapper img {
     width: 144px;
     height: 206px;
@@ -127,8 +127,9 @@
   .left_to_right {
     justify-content: right;
   }
-}
+} */
 
+/* intro page start */
 .introduction_icon {
   display: flex;
   justify-content: space-between;
@@ -158,7 +159,6 @@
 }
 .cursol {
   margin: 100px;
-  border: 1px solid red;
 }
 
 .left_img {
@@ -173,9 +173,6 @@
 }
 .wrapper_content {
   padding-left: 0px;
-}
-.wrapper {
-  border: 1px solid red;
 }
 
 /* Intoduction page css */
@@ -362,9 +359,8 @@ h3 {
   margin-right: 40px;
 }
 .practice_arpit img {
-  width: 110px;
-  height: 80;
   size-adjust: 100%;
+  height: 60px;
   border-radius: 5px;
   margin-right: 15px;
 }

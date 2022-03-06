@@ -12,9 +12,11 @@ export default function AuthProvider({children}) {
     const [value5, setvalue5] = useState({dur:12,price:12000})
     const [value6, setvalue6] = useState({dur:6,price:8000})
 
-    const [sender, setSender] = useState({})
+   const [sender, setSender] = useState({})
+   const [con, setCon] = useState(false);
+   
   return (
-      <AuthContext.Provider value={{value1,value2,value3,value4,value5,value6,sender,setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setSender }}>
+    <AuthContext.Provider value={{value1,value2,value3,value4,value5,value6,sender,con, setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setSender,setCon }}>
           {children}
     </AuthContext.Provider>
   )

@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import styles from "./Login.module.css";
-import { Navbar } from '../Navbar/Navbar';
 import { LoginPage } from './LoginPage';
 import { VerificationPage } from './VerificationPage';
+import { Navbar } from '../Navbar/Navbar';
 
 export const ModalPage = () => {
     const [open, setOpen] = React.useState(false);
@@ -12,10 +12,7 @@ export const ModalPage = () => {
 
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const handleLogin = () => {
-      setValue(true)
-      console.log(value)
-    };
+    const handleLogin = () => setValue(true)
 
 
     const style = {
