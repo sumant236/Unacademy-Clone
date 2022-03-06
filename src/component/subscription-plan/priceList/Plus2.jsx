@@ -1,16 +1,19 @@
 import React from 'react'
 import style from "../PlanDetails.module.css"
 import { useState } from 'react';
-import { Radio } from '@mui/material';
+import { useContext } from 'react';
+import { AuthContext } from '../../../context/AuthProvider';
 
 export const Plus2 = () => {
 
+    const {value1,value2,value3,setSender} = useContext(AuthContext)
     const [choose1, setChoose1] = useState(false);
     const [choose2, setChoose2] = useState(false);
     const [choose3, setChoose3] = useState(false)
 
    const onselect1=()=>{
 
+        setSender(value1)
         setChoose1(!choose1)
         setChoose2(false)
         setChoose3(false)
@@ -18,12 +21,14 @@ export const Plus2 = () => {
 
     const onselect2=()=>{
 
+        setSender(value2)
         setChoose2(!choose2)
         setChoose1(false)
         setChoose3(false)
     }
     const onselect3=()=>{
 
+        setSender(value3)
         setChoose3(!choose3)
         setChoose1(false)
         setChoose2(false)
@@ -46,11 +51,11 @@ export const Plus2 = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹506</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹12,144</span>
+                        <p>₹{value1.price}</p>
                     </div>
                 </div>
                 
@@ -69,11 +74,11 @@ export const Plus2 = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹843</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹10,120</span>
+                        <p>₹{value2.price}</p>
                     </div>
                 </div>
                 
@@ -92,11 +97,11 @@ export const Plus2 = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹1349</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹8,096</span>
+                        <p>₹{value3.price}</p>
                     </div>
                 </div>
                 
@@ -114,11 +119,11 @@ export const Plus2 = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹1687</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹{5000}</span>
+                        <p>₹5000</p>
                     </div>
                 </div>
                 
@@ -136,11 +141,11 @@ export const Plus2 = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹2000</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹2,000</span>
+                        <p>₹2,000</p>
                     </div>
                 </div>
                 
