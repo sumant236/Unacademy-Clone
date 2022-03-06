@@ -4,6 +4,7 @@ import style from "./Subscription.module.css";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import { Hamburger } from './Hamburger';
+import { useNavigate } from 'react-router-dom';
 
 export const Subscription = () => {
 
@@ -22,10 +23,15 @@ export const Subscription = () => {
     height: "100%",
     padding: "24px 115px 0px 48px",
   };
-  const [display, setDisplay] = useState(false)
-
+  const [display, setDisplay] = useState(false);
+  const navigate = useNavigate();
   const  handlePopin =()=> setDisplay(true);
   const  handlePopout =()=> setDisplay(false);
+
+  const selecthandler=()=>{
+    navigate('subscribe/plan-details')
+
+  }
   return (
     <>
      
@@ -70,7 +76,7 @@ export const Subscription = () => {
               
             </div>
             <div className={style.plusbutton}>
-              <button>
+              <button onClick={selecthandler}>
                 Select PLUS
               </button>
             </div>

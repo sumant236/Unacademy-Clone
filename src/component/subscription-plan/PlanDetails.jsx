@@ -97,6 +97,7 @@ export const PlanDetails = () => {
                     (view?(<Plus2/>):(<Plus/>))
 
                 ):(<Iconic/>)}
+                
                 <p className={style.para}>To be paid as a one-time payment</p>
 
                 {view?(<></>):(<button className={style.viewPlans} onClick={onView}>View all plans</button>)}
