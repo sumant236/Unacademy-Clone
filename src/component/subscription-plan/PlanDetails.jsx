@@ -5,14 +5,51 @@ import { Plus2 } from './priceList/Plus2'
 import { Iconic } from './priceList/Iconic'
 import { Slider } from './Slider'
 import { useState } from 'react'
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
+import { Link } from 'react-router-dom'
 
 
 export const PlanDetails = () => {
 
+    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext)
 
-    const [show, setShow] = useState(true);
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext)
+    
+    const [show, setShow] = useState(!con);
     const [view, setView] = useState(false);
     const [value, setValue] = useState();
+   
+    const addDiscount=()=>{
+
+        
+        setvalue1({
+            dur: value1.dur,
+            price:value1.price-value,
+        })
+        setvalue2({
+            dur: value1.dur,
+            price:value2.price-value,
+        })
+        setvalue3({
+            dur: value1.dur,
+            price:value3.price-value,
+        })
+        setvalue4({
+            dur: value1.dur,
+            price:value4.price-value,
+        })
+        setvalue5({
+            dur: value1.dur,
+            price:value5.price-value,
+        })
+        setvalue6({
+            dur: value1.dur,
+            price:value6.price-value,
+        })
+
+        
+    }
 
     const onView=()=>{
 
@@ -24,7 +61,6 @@ export const PlanDetails = () => {
         setShow(true);
     }
     const onIconic=()=>{
-
         setShow(false);
     }
     const click = () =>{
@@ -32,9 +68,10 @@ export const PlanDetails = () => {
         console.log(value)
         setValue()
     }
+
   return (
     <div>
-        <header className={style.logo}>
+        <header className={style.ulogo}>
             <img src='https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384' alt="logo"/>
         </header>
         <div className={style.main}>
@@ -49,7 +86,8 @@ export const PlanDetails = () => {
                 <div className={style.topbuttons}>
 
                     <button onClick={onPlus} className={show?style.button1:style.btn1}>PLUS</button>
-                    <button onClick={onIconic} className={show?style.btn1:style.button2}>ICONIC</button>
+                    <button onClick={onIconic} className={show ? style.btn1 : style.button2}>ICONIC</button>
+                      
                 </div>
 
                 <div className={style.emi}>
@@ -75,9 +113,9 @@ export const PlanDetails = () => {
                             (e)=> setValue(e.currentTarget.value)
                         }
                     />
-                    <button className={style.apply}>Apply</button>
+                    <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                   <button className={style.paybtn}>Proceed to pay</button>
+                <Link to='payment'><button className={style.paybtn}>Proceed to pay</button></Link> 
                 </div>
             </div>
         </div>

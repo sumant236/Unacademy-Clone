@@ -12,7 +12,7 @@ export const LoginPage = ({handleLoggingIn}) => {
       <>
         <h1 className={styles.h1Tag}>Login</h1>
         <div className={styles.link}><p className={styles.pTag}>or </p><a href='#' className={styles.hyper}><h6 className={styles.h6Tag}>create your account</h6></a></div>
-        {emailLink?<Email handleClick={handleMobileClick} handleLogin = {handleLoggingIn}/>:<Mobile handleClick = {handleEmailClick}/>}
+        {emailLink?<Email handleClick={handleMobileClick} handleLogin = {handleLoggingIn}/>:<Mobile handleClick = {handleEmailClick} handleLogin={handleLoggingIn}/>}
       </>
   )
 }

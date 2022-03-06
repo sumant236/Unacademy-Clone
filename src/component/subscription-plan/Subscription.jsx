@@ -1,7 +1,42 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import style from "./Subscription.module.css";
+import Modal from "@mui/material/Modal";
+import Box from "@mui/material/Box";
+import { Hamburger } from './Hamburger';
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
+
 
 export const Subscription = () => {
+
+  const hamstyle = {
+    position: "absolute",
+    left: "50%",
+    width: "40%",
+    bgcolor: "background.paper",
+    boxShadow: 24,
+    p: 4,
+    fontFamily: "sans-serif",
+    maxHeight: "1024px",
+    overflowX: "hidden",
+    transform: "none",
+    transition: "transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms",
+    height: "100%",
+    padding: "24px 115px 0px 48px",
+  };
+  const [display, setDisplay] = useState(false)
+
+  const  handlePopin =()=> setDisplay(true);
+  const handlePopout = () => setDisplay(false);
+  
+  const { con, setCon } = useContext(AuthContext);
+  
+  useEffect(() => {
+     console.log(con);
+  }, [])
+  
   return (
     <>
      
@@ -46,9 +81,7 @@ export const Subscription = () => {
               
             </div>
             <div className={style.plusbutton}>
-              <button>
-                Select PLUS
-              </button>
+            <Link to='plan' onClick={setCon(false)}><button>Select PLUS</button></Link> 
             </div>
           </div>
 
@@ -95,16 +128,31 @@ export const Subscription = () => {
                 </div>
               </div>
               <div className={style.iconicbutton}>
-                <button className={style.btn1}>
+              <Link to='plan'>
+                <button className={style.btn1} onClick={setCon(true)}>
                   Select ICONIC
                 </button>
-                <button className={style.btn2}>
+              </Link>  
+                <button className={style.btn2} onClick={handlePopin}>
                   Learn more
                 </button>
+                
               </div>
             </div>
         </div>
       </div>
+
+      <Modal
+            open={display}
+            onClose={handlePopout} 
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+        >
+            <Box sx={hamstyle}>
+              <button onClick={handlePopout}>X</button>
+              <Hamburger/>
+            </Box>
+        </Modal>
     </>
   )
 }

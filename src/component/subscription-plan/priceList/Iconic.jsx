@@ -1,27 +1,34 @@
 import React from 'react'
 import style from "../PlanDetails.module.css"
 import { useState } from 'react';
+import { useContext } from 'react';
+import { AuthContext } from '../../../context/AuthProvider';
 
 export const Iconic = () => {
+
+    const {value4,value5,value6,setSender} = useContext(AuthContext)
     const [choose1, setChoose1] = useState(false);
     const [choose2, setChoose2] = useState(false);
     const [choose3, setChoose3] = useState(false)
 
    const onselect1=()=>{
 
+        setSender(value4);
         setChoose1(!choose1)
         setChoose2(false)
         setChoose3(false)
     }
 
     const onselect2=()=>{
-
+        
+        setSender(value5);
         setChoose2(!choose2)
         setChoose1(false)
         setChoose3(false)
     }
     const onselect3=()=>{
 
+        setSender(value6);
         setChoose3(!choose3)
         setChoose1(false)
         setChoose2(false)
@@ -30,7 +37,6 @@ export const Iconic = () => {
     <div>
 
         <div className={style.durationAndprice}>
-
             <div className={choose1?style.plancard2:style.plancard}  onClick={onselect1}>
 
                 <div className={style.duration}>
@@ -44,11 +50,11 @@ export const Iconic = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹500</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹12000</span>
+                        <p>₹{value4.price}</p>
                     </div>
                 </div>
                 
@@ -67,11 +73,11 @@ export const Iconic = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹1000</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹12000</span>
+                        <p>₹{value5.price}</p>
                     </div>
                 </div>
                 
@@ -89,11 +95,11 @@ export const Iconic = () => {
                 <div className={style.price}>
                     <div className={style.pricePerMonth}>
                         <h4>₹1600</h4>
-                        <span>/mo</span>
+                        <p>/mo</p>
                     </div>
                     <div className={style.totalPrice}>
                         <p>Total</p>
-                        <span>₹9600</span>
+                        <p>₹{value6.price}</p>
                     </div>
                 </div>
                 

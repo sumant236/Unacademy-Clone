@@ -13,7 +13,7 @@ export const Courses = ({lists}) => {
                         <h5 className={style.h5Tag}>{item.title}</h5> 
                         <div className={style.boxes}>
                             {item.subTitles.map((data)=>(
-                                    <Link to='page' className={style.linkP}> 
+                                    <Link to='nda' className={style.linkP}> 
                                 <div className={style.course} key={data.id}>
                                         <img className={style.imgStyle} src={data.iconsUrl}/>
                                         <p>{data.topic}</p>
