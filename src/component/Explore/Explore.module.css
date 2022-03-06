@@ -117,3 +117,6 @@
     flex-wrap: wrap;
     flex-flow: row;
 }
+.inputBox{
+    border: none;
+}

@@ -15,15 +15,15 @@
   margin-bottom: 12px;
 
   display: flex;
-  width: 100%;
+  width: 105%;
   justify-content: space-between;
   box-shadow: 0px 16px 32px 0px var(--color-shadow);
   font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 .payment_wrapper {
   border-radius: 8px;
-  width: 98%;
-  height: 450px;
+  width: 105%;
+  height: 480px;
   background-color: white;
   padding: 32px 32px 32px 40px;
   margin-bottom: 12px;
@@ -100,11 +100,9 @@ body {
   height: 56px;
 }
 
-.MuiTab-root.Mui-selected {
+.tab_bkg:focus {
   background-color: white;
   border-radius: 15px;
-  color: black;
-  font-weight: 900;
 }
 
 .avatar {
@@ -188,7 +186,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   font-family: sans-serif !important;
-  width: 100%;
+  width: 108%;
   display: flex;
   -webkit-box-align: center;
   align-items: center;

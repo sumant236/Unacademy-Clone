@@ -12,13 +12,13 @@ import { Link } from 'react-router-dom'
 
 export const PlanDetails = () => {
 
-    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext)
+    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext);
 
-    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext)
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext);
     
     const [show, setShow] = useState(!con);
     const [view, setView] = useState(false);
-    const [value, setValue] = useState();
+    const [value, setValue] = useState("");
    
     const addDiscount=()=>{
 
@@ -28,23 +28,23 @@ export const PlanDetails = () => {
             price:value1.price-value,
         })
         setvalue2({
-            dur: value1.dur,
+            dur: value2.dur,
             price:value2.price-value,
         })
         setvalue3({
-            dur: value1.dur,
+            dur: value3.dur,
             price:value3.price-value,
         })
         setvalue4({
-            dur: value1.dur,
+            dur: value4.dur,
             price:value4.price-value,
         })
         setvalue5({
-            dur: value1.dur,
+            dur: value5.dur,
             price:value5.price-value,
         })
         setvalue6({
-            dur: value1.dur,
+            dur: value6.dur,
             price:value6.price-value,
         })
 
@@ -62,11 +62,6 @@ export const PlanDetails = () => {
     }
     const onIconic=()=>{
         setShow(false);
-    }
-    const click = () =>{
-
-        console.log(value)
-        setValue()
     }
 
   return (
@@ -99,6 +94,7 @@ export const PlanDetails = () => {
                     (view?(<Plus2/>):(<Plus/>))
 
                 ):(<Iconic/>)}
+                
                 <p className={style.para}>To be paid as a one-time payment</p>
 
                 {view?(<></>):(<button className={style.viewPlans} onClick={onView}>View all plans</button>)}
@@ -115,7 +111,7 @@ export const PlanDetails = () => {
                     />
                     <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                <Link to='payment'><button className={style.paybtn}>Proceed to pay</button></Link> 
+                <Link to='payment'><button className={style.paybtn} >Proceed to pay</button></Link> 
                 </div>
             </div>
         </div>

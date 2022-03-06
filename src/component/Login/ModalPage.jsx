@@ -5,15 +5,20 @@ import styles from "./Login.module.css";
 import { LoginPage } from './LoginPage';
 import { VerificationPage } from './VerificationPage';
 import { Navbar } from '../Navbar/Navbar';
+import Navbar2 from '../Navbar2/Navbar2';
 
 export const ModalPage = () => {
     const [open, setOpen] = React.useState(false);
     const [value, setValue] = useState(false);
+    const [loginNavbar, setLoginNavbar] = useState(false);
 
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
     const handleLogin = () => setValue(true)
-
+    const handleNavbar = () => {
+      setLoginNavbar(true)
+      setOpen(false)
+    };
 
     const style = {
         position: "absolute",
@@ -28,12 +33,12 @@ export const ModalPage = () => {
         transform: "none",
         transition: "transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms",
         height: "100%",
-        padding: "24px 115px 0px 48px",
+        padding: "24px 0px 0px 48px",
       };
       
     return (
     <div>
-      <Navbar onLogin={handleOpen}/>
+      {loginNavbar?<Navbar2/>:<Navbar onLogin={handleOpen}/>}
         <Modal
             open={open}
             onClose={handleClose} 
@@ -42,7 +47,7 @@ export const ModalPage = () => {
         >
             <Box sx={style}>
               <button onClick={handleClose} className={styles.modalBtn}>X</button>
-              {value? <VerificationPage/> :<LoginPage handleLoggingIn={handleLogin}/> }
+              {value? <VerificationPage login={handleNavbar}/> :<LoginPage handleLoggingIn={handleLogin}/> }
             </Box>
         </Modal>
     </div>

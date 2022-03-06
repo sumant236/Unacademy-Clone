@@ -5,18 +5,11 @@ import Page from './component/nda/Page';
 import { Subscription } from './component/subscription-plan/Subscription';
 import { PlanDetails } from './component/subscription-plan/PlanDetails';
 import { ExplorePage } from './component/Explore/ExplorePage';
-import { useState } from 'react';
 import { Route } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 
 function App() {
 
-  const [click, setClick] = useState(false);
-
-  const handleClick = () =>{
-    setClick(true);
-  }
-  
   return (
     <div className="App">
       <Routes>
