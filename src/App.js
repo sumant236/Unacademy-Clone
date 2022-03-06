@@ -25,14 +25,13 @@ function App() {
   return (
     <div className="App">
 
-
       <PlanDetails/>
         {/* <Page/> */}
       {/* <Subscription/> */}
 
 
        {/* <Page/> */}
-       <Details/>
+       {/* <Details/> */}
       
      
 
@@ -51,11 +50,11 @@ function App() {
         {/* {click?<Email/>:<Login handleClick={handleClick}/>} */}
         {/* <Email/> */}
         {/* <OtpPage/> */}
-      <Routes>
+      {/* <Routes>
        <Route path='/' element={<ExplorePage />}/>
         <Route path='page' element={<Page/>}/>
         <Route path='subscribe' element={<Subscription/>}/>
-      </Routes>
+      </Routes> */}
       {/* <Details/> */}
       {/* <ExplorePage /> */}
 

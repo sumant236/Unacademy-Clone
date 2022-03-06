@@ -1,7 +1,31 @@
 import React from 'react';
+import { useState } from 'react';
 import style from "./Subscription.module.css";
+import Modal from "@mui/material/Modal";
+import Box from "@mui/material/Box";
+import { Hamburger } from './Hamburger';
 
 export const Subscription = () => {
+
+  const hamstyle = {
+    position: "absolute",
+    left: "50%",
+    width: "40%",
+    bgcolor: "background.paper",
+    boxShadow: 24,
+    p: 4,
+    fontFamily: "sans-serif",
+    maxHeight: "1024px",
+    overflowX: "hidden",
+    transform: "none",
+    transition: "transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms",
+    height: "100%",
+    padding: "24px 115px 0px 48px",
+  };
+  const [display, setDisplay] = useState(false)
+
+  const  handlePopin =()=> setDisplay(true);
+  const  handlePopout =()=> setDisplay(false);
   return (
     <>
      
@@ -98,13 +122,26 @@ export const Subscription = () => {
                 <button className={style.btn1}>
                   Select ICONIC
                 </button>
-                <button className={style.btn2}>
+                <button className={style.btn2} onClick={handlePopin}>
                   Learn more
                 </button>
+                
               </div>
             </div>
         </div>
       </div>
+
+      <Modal
+            open={display}
+            onClose={handlePopout} 
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+        >
+            <Box sx={hamstyle}>
+              <button onClick={handlePopout}>X</button>
+              <Hamburger/>
+            </Box>
+        </Modal>
     </>
   )
 }

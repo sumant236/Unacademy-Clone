@@ -1,0 +1,65 @@
+.hamHead h2{
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #3C4852;
+}
+.hamHead p{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 16px 0px 20px;
+    color: #7A8B94;
+}
+
+.card{
+
+    display: flex;
+    margin-top: 40px;
+}
+.p1{
+
+    line-height: 150%;
+    color: #3C4852;
+    margin: 0px 0px 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.p2{
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0px;
+    color: #7A8B94;
+}
+.hamImg1{
+
+    width: 100px;
+    padding-top: 20px;
+}
+.hamImg1 img{
+
+    width: 60px;
+}
+
+.hamImg2{
+
+    width: 84px;
+}
+
+.hamImg2 img{
+
+    width: 60px;
+}
+.hamImg3{
+
+    width: 100px;
+}
+
+.hamImg3 img{
+
+    width: 60px;
+}

@@ -5,14 +5,50 @@ import { Plus2 } from './priceList/Plus2'
 import { Iconic } from './priceList/Iconic'
 import { Slider } from './Slider'
 import { useState } from 'react'
+import { useContext } from 'react'
+import { AuthContext } from '../../context/AuthProvider'
 
 
 export const PlanDetails = () => {
 
+    const {value1,value2,value3,value4,value5,value6} = useContext(AuthContext)
+
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6} = useContext(AuthContext)
 
     const [show, setShow] = useState(true);
     const [view, setView] = useState(false);
     const [value, setValue] = useState();
+
+    const addDiscount=()=>{
+
+        
+        setvalue1({
+            dur: value1.dur,
+            price:value1.price-value,
+        })
+        setvalue2({
+            dur: value1.dur,
+            price:value2.price-value,
+        })
+        setvalue3({
+            dur: value1.dur,
+            price:value3.price-value,
+        })
+        setvalue4({
+            dur: value1.dur,
+            price:value4.price-value,
+        })
+        setvalue5({
+            dur: value1.dur,
+            price:value5.price-value,
+        })
+        setvalue6({
+            dur: value1.dur,
+            price:value6.price-value,
+        })
+
+        
+    }
 
     const onView=()=>{
 
@@ -34,7 +70,7 @@ export const PlanDetails = () => {
     }
   return (
     <div>
-        <header className={style.logo}>
+        <header className={style.ulogo}>
             <img src='https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384' alt="logo"/>
         </header>
         <div className={style.main}>
@@ -75,7 +111,7 @@ export const PlanDetails = () => {
                             (e)=> setValue(e.currentTarget.value)
                         }
                     />
-                    <button className={style.apply}>Apply</button>
+                    <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
                    <button className={style.paybtn}>Proceed to pay</button>
                 </div>
