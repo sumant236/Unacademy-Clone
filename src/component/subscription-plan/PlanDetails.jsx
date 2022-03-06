@@ -28,23 +28,23 @@ export const PlanDetails = () => {
             price:value1.price-value,
         })
         setvalue2({
-            dur: value1.dur,
+            dur: value2.dur,
             price:value2.price-value,
         })
         setvalue3({
-            dur: value1.dur,
+            dur: value3.dur,
             price:value3.price-value,
         })
         setvalue4({
-            dur: value1.dur,
+            dur: value4.dur,
             price:value4.price-value,
         })
         setvalue5({
-            dur: value1.dur,
+            dur: value5.dur,
             price:value5.price-value,
         })
         setvalue6({
-            dur: value1.dur,
+            dur: value6.dur,
             price:value6.price-value,
         })
 
@@ -115,7 +115,7 @@ export const PlanDetails = () => {
                     />
                     <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                <Link to='payment'><button className={style.paybtn}>Proceed to pay</button></Link> 
+                <Link to='payment'><button className={style.paybtn} >Proceed to pay</button></Link> 
                 </div>
             </div>
         </div>

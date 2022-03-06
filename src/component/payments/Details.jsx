@@ -17,16 +17,25 @@ import Card from './payment-methods/Card'
 import NetBanking from './payment-methods/NetBanking';
 import { Link } from 'react-router-dom'
 import CloseIcon from '@mui/icons-material/Close';
+import { AuthContext } from '../../context/AuthProvider';
+import { useContext } from 'react'
+import { useNavigate } from 'react-router-dom';
 import style from './details.module.css'
 
 
 
 export default function Details() {
-    
+  const { sender, setSender } = useContext(AuthContext)
+  const navigate = useNavigate();
+  const changeHandler = () => {
+    navigate('/nda/subscribe')
+  }
+  
+
   const [value, setValue] = React.useState(0);
   const [credit,setCredit]=useState(520)
   const [isRedeem, setRedeem] = useState(false)
-  const [oldfee,setOldFee]=useState(61600)
+  const [oldfee,setOldFee]=useState(sender.price)
   const [newfee, setNewFee] = useState(oldfee);
  
     const [cashVal,setCashVal]=useState(true)
@@ -144,7 +153,8 @@ export default function Details() {
                                         src={avatar5}
                                         />
                                     }
-                                    sx={{padding:0,paddingTop:1,paddingBottom:1}}
+                                sx={{ padding: 0, paddingTop: 1, paddingBottom: 1 }}
+                                className={style.tab_bkg}
                                     title={<strong>Cash</strong>}
                                     />}/>
                        
@@ -153,7 +163,7 @@ export default function Details() {
                           </Tabs>
                          
                       </div>
-                      <div className={style.form}>
+                      <div className={style.form} >
                     <TabPanel value={value} index={0}>
                               <Card/>
                         </TabPanel>
@@ -175,10 +185,10 @@ export default function Details() {
           <div className={style.subscription_inner_wrapper}>
             <div className={style.subscription_first_wrapper}>
               <h4 className={style.sub_head_wrapper}>NDA subscription</h4>
-              <p className={style.subs_desc_wrapper}>24 months </p>
+              <p className={style.subs_desc_wrapper}>{sender.dur} months </p>
               <div className={style.subs_valid_desc}>
                 <p className={style.subs_inner_valid_desc}>Valid till 3 Mar, 2024</p>
-                <h6 className={style.subs_inner_change_wrapper}>Change duration</h6>
+                <h6 className={style.subs_inner_change_wrapper} onClick={changeHandler}>Change duration</h6>
                
               </div>
           </div>
@@ -203,7 +213,7 @@ export default function Details() {
               <img src="https://static.uacdn.net/production/_next/static/images/credit.png?q=75&w=48" width="24px" height="24px" />
               <h6 className={style.credits_wrapper}>{credit} credits</h6>
               {isRedeem==false ?
-                <Link to='/' className={style.redeem_wrapper} onClick={redeemHandler}>Redeem</Link> :
+                <Link to='' className={style.redeem_wrapper} onClick={redeemHandler}>Redeem</Link> :
                 <CloseIcon onClick={ redeemHandler}/> 
               }
               
