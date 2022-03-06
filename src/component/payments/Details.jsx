@@ -100,8 +100,8 @@ export default function Details() {
               </div>
           <div className={style.payment_wrapper}>
             <h4 className={style.payment_choose_wraper}>Choose a payment method</h4>
-            <div class={style.method_wrapper}>
-              <div class={style.column_1}>
+            <div className={style.method_wrapper}>
+              <div className={style.column_1}>
                           <Tabs
                             orientation="vertical"
                             variant="scrollable"
@@ -216,7 +216,7 @@ export default function Details() {
             </div>
             {isRedeem ?
               <div className={style.discount_wrapper}>
-                <p class={style.cred_app}>Credits applied</p>
+                <p className={style.cred_app}>Credits applied</p>
                 <p className={style.cred_app}>- { credit}</p>
            </div>:""
             }

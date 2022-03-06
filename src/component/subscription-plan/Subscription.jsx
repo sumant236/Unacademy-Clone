@@ -4,7 +4,11 @@ import style from "./Subscription.module.css";
 export const Subscription = () => {
   return (
     <>
+     
       <div className={style.main}>
+      <header className={style.ulogo}>
+          <img src='https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256' alt="logo"/>
+      </header>
         <div className={style.heading}>      
           <h3 className={style.ndaheading}>NDA</h3>
           <h5 className={style.ndatagline}>Select a subscription plan that suits you</h5>

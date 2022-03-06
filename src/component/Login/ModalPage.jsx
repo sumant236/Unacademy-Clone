@@ -2,17 +2,21 @@ import React, { useState } from 'react'
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import styles from "./Login.module.css";
-import { Mobile } from './Mobile';
-import { Email } from './Email';
+import { Navbar } from '../Navbar/Navbar';
+import { LoginPage } from './LoginPage';
+import { VerificationPage } from './VerificationPage';
 
-export const Login = () => {
+export const ModalPage = () => {
     const [open, setOpen] = React.useState(false);
-    const [emailLink, setEmailLink] = useState(false); 
+    const [value, setValue] = useState(false);
 
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-    const handleEmailClick = () => setEmailLink(true);
-    const handleMobileClick = () => setEmailLink(false);
+    const handleLogin = () => {
+      setValue(true)
+      console.log(value)
+    };
+
 
     const style = {
         position: "absolute",
@@ -29,14 +33,10 @@ export const Login = () => {
         height: "100%",
         padding: "24px 115px 0px 48px",
       };
-
       
     return (
     <div>
-      <nav className={styles.navBar}>
-          <img src="https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=256"/>
-          <button className={styles.loginButton} onClick={handleOpen}>Login</button>
-      </nav>
+      <Navbar onLogin={handleOpen}/>
         <Modal
             open={open}
             onClose={handleClose}
@@ -45,9 +45,7 @@ export const Login = () => {
         >
             <Box sx={style}>
               <button onClick={handleClose} className={styles.modalBtn}>X</button>
-              <h1 className={styles.h1Tag}>Login</h1>
-              <div className={styles.link}><p className={styles.pTag}>or </p><a href='#' className={styles.hyper}><h6 className={styles.h6Tag}>create your account</h6></a></div>
-              {emailLink?<Email handleClick={handleMobileClick}/>:<Mobile handleClick = {handleEmailClick}/>}
+              {value? <VerificationPage/> :<LoginPage handleLoggingIn={handleLogin}/> }
             </Box>
         </Modal>
     </div>
