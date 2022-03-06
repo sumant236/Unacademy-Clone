@@ -1,57 +1,88 @@
 import React from 'react'
 import style from "./PlanDetails.module.css"
+import { Plus } from './priceList/Plus'
+import { Plus2 } from './priceList/Plus2'
+import { Iconic } from './priceList/Iconic'
 import { Slider } from './Slider'
+import { useState } from 'react'
+
 
 export const PlanDetails = () => {
+
+
+    const [show, setShow] = useState(true);
+    const [view, setView] = useState(false);
+    const [value, setValue] = useState();
+
+    const onView=()=>{
+
+        setView(true);
+    }
+
+    const onPlus =()=>{
+
+        setShow(true);
+    }
+    const onIconic=()=>{
+
+        setShow(false);
+    }
+    const click = () =>{
+
+        console.log(value)
+        setValue()
+    }
   return (
     <div>
+        <header className={style.logo}>
+            <img src='https://static.uacdn.net/production/_next/static/images/logo.svg?q=75&w=384' alt="logo"/>
+        </header>
         <div className={style.main}>
             <div className={style.slider}>
                 <Slider/>
             </div>
             <div className={style.plandetails}>
-                <div>
+                <div className={style.topheading}>
                     <h3>NDA subscription</h3>
                 </div>
 
-                <div>
-                    <button>PLUS</button>
-                    <button>ICONIC</button>
+                <div className={style.topbuttons}>
+
+                    <button onClick={onPlus} className={show?style.button1:style.btn1}>PLUS</button>
+                    <button onClick={onIconic} className={show?style.btn1:style.button2}>ICONIC</button>
                 </div>
 
-                <div>
+                <div className={style.emi}>
+                    <img src='https://static.uacdn.net/production/_next/static/images/sale_discount.png?q=75&w=32'/>
                     <p>No cost EMI available on 6 months & above subscription plans</p>
                 </div>
 
-                <div className={style.durationAndprice}>
+                {show?(
+                    (view?(<Plus2/>):(<Plus/>))
 
-                    <div className={style.plancard}>
-                    
-                        <div className={style.duration}>
-                            <div className={style.monthdetails}>
-                                <input type="checkbox" />
-                                <h4>24 months</h4>
-                            </div>
-                            <p>SAVE 75%</p>
-                        </div>
+                ):(<Iconic/>)}
+                <p className={style.para}>To be paid as a one-time payment</p>
 
-                        <div className={style.price}>
-                            <div className={style.pricePerMonth}>
-                                <h4>₹506</h4>
-                                <span>/mo</span>
-                            </div>
-                            <div className={style.totalPrice}>
-                                <p>Total</p>
-                                <span>₹12,144</span>
-                            </div>
-                        </div>
+                {view?(<></>):(<button className={style.viewPlans} onClick={onView}>View all plans</button>)}
+                
+
+                <div className={style.fixedfooter}>
+                    <div className={style.imgBox}>
+                        <img src="https://static.uacdn.net/production/_next/static/images/gift.svg?q=75&w=32"/>
                     </div>
+                    <input type="text" placeholder='Have a referral code?' value={value} 
+                        onChange={
+                            (e)=> setValue(e.currentTarget.value)
+                        }
+                    />
+                    <button className={style.apply}>Apply</button>
+                    
+                   <button className={style.paybtn}>Proceed to pay</button>
                 </div>
             </div>
         </div>
         
     </div>
-
     
   )
 }

@@ -21,6 +21,10 @@ function App() {
     <div className="App">
 
 
+      <PlanDetails/>
+        {/* <Page/> */}
+      {/* <Subscription/> */}
+
 
        {/* <Page/> */}
        {/* <Details/> */}

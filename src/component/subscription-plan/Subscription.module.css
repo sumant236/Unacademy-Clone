@@ -1,3 +1,9 @@
+.ulogo{
+
+    margin: 20px 0px 0px 200px;
+    cursor: pointer;
+}
+
 .main{
 
     min-height: 100vh;
@@ -12,6 +18,7 @@
     margin: auto;
     align-items: center;
     margin-top: 3%;
+    margin-left: 20%;
     display: flex;
     
      
@@ -136,6 +143,7 @@
     border: none;
     border-radius: 8px;
 }
+
 
 
 .iconic{
