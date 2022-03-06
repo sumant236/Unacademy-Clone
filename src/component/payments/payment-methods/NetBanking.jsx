@@ -9,7 +9,7 @@ export default function NetBanking() {
   const [isNet, setIsNet] = useState(true)
   
   const netPayHander = () => {
-    window.location="https://www.icicibank.com/Personal-Banking/insta-banking/internet-banking/index.page"
+    window.open("https://www.icicibank.com/Personal-Banking/insta-banking/internet-banking/index.page",'_blank')
   //   navigate("https://shopping.icicibank.com/corp/BANKAWAY?IWQRYTASKOBJNAME=bay_mc_login&BAY_BANKID=ICI");
    }
 

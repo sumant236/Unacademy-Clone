@@ -40,13 +40,13 @@ export default function Card() {
               <div className={style.first}>
                  <h6 className={style.valid}>Valid through</h6> 
                   <div className={style.frame}>
-            <input type="text" placeholder="MM" name="card_exp_month" id="card_exp_month" onChange={(e) => setMM(e.target.value)} className={style.card_exp_month} value={mm} ></input>
+            <input type="text" placeholder="MM" name="card_exp_month" id="card_exp_month" onChange={(e) => setMM(e.target.value)} className={style.card_exp_month} value={mm} maxlength = "2"></input>
             <h6 className={style.slash}>/</h6>
-            <input type="text" value={yy} placeholder="YY" onChange={(e) => setYY(e.target.value)} name="card_exp_year" id="card_exp_year" className={style.card_exp_year} ></input>
+            <input type="text" value={yy} placeholder="YY" onChange={(e) => setYY(e.target.value)} name="card_exp_year" id="card_exp_year" className={style.card_exp_year} maxlength = "2"></input>
                   </div>
               </div>
               <div>
-          <input type="text" value={cv} placeholder="CVV" onChange={(e) => { setCV(e.target.value) }} name="security_code" id="security_code" className={style.security_code} ></input>
+          <input type="text" value={cv} placeholder="CVV" onChange={(e) => { setCV(e.target.value) }} name="security_code" id="security_code" className={style.security_code} maxlength = "3" ></input>
                      </div>
           </div>
       <input type="text" value={cardName} placeholder="Name on the Card" onChange={(e) => { setCardName(e.target.value) }} name="card_number" id="card_name" className={style.card_number} ></input>
