@@ -1,18 +1,29 @@
 import React from 'react'
-import '../payment-methods/net_bank.css'
+import { useState } from 'react';
+import style from './net_bank.module.css'
+import { useNavigate } from "react-router-dom";
 
 export default function NetBanking() {
+  let navigate = useNavigate();
+
+  const [isNet, setIsNet] = useState(true)
+  
+  const netPayHander = () => {
+    window.location="https://www.icicibank.com/Personal-Banking/insta-banking/internet-banking/index.page"
+  //   navigate("https://shopping.icicibank.com/corp/BANKAWAY?IWQRYTASKOBJNAME=bay_mc_login&BAY_BANKID=ICI");
+   }
+
     return (
       <div>
-      <div className='net-wrapper'>
+        <button className={isNet ? style.net_wrapper :style.net_green_wapper} onClick={()=>setIsNet(!isNet)}>
          
-              <div className='icici-bank-wrapper'>
+          <div className={style.icici_bank_wrapper}>
                   <img src="https://static.uacdn.net/app_icons/payments/icici.png" />
               </div>
-              <h6 class="bank-heading">ICICI Netbanking</h6>
+          <h6 class={style.bank_heading}>ICICI Netbanking</h6>
         
-            </div>
-            <button className='net-btn'>
+            </button>
+        <button className={style.net_btn} onClick={netPayHander}>
         Pay 
       </button>
             </div>

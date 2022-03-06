@@ -1,17 +1,60 @@
-/* .loginBtn{
-    width: 80px;
-    height: 40px;
-    text-align: center;
-    border: none;
-    border-radius: 6px;
-    background: hsl(160, 92%, 39%);
-    color: #fff;
-} */
-/* nav{
+.navbar_border{
+    border: 1px solid red;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar_border > div:nth-child(1){
+    width: 350px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0px 70px;
-    height: 72px;
     align-items: center;
-    background: #FBFCFC;
-} */
+}
+.navbar_border > div:nth-child(1) img{
+    width: 200px;
+    z-index: 10;
+    position: relative;
+    top: 0px;
+}
+.navbar_border > div:nth-child(2){
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notice_icon{
+    width: 20px;
+}
+.all_fun_right_side{
+    display: flex;
+    margin-left: 70%;
+}
+a.all_fun_right_side button{
+   margin-right: 10px;
+}
+
+/* search */
+.search_box{
+  position: relative;
+}
+.searchText{
+    width: 0px;
+    border-radius: 8px;
+}
+
+.search_of_input{
+    top: 30%;
+    width: 1.5rem;
+    position: absolute;
+    right: 10px;
+}
+.search_box > .searchText {
+    width: 20rem;
+    padding: 20px;
+}

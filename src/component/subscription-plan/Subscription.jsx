@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import style from "./Subscription.module.css";
 
 export const Subscription = () => {
@@ -42,9 +43,7 @@ export const Subscription = () => {
               
             </div>
             <div className={style.plusbutton}>
-              <button>
-                Select PLUS
-              </button>
+            <Link to='plan'><button>Select PLUS</button></Link> 
             </div>
           </div>
 

@@ -5,6 +5,7 @@ import Page from './component/nda/Page';
 import { Subscription } from './component/subscription-plan/Subscription';
 import { PlanDetails } from './component/subscription-plan/PlanDetails';
 import { ExplorePage } from './component/Explore/ExplorePage';
+
 import { Email } from './component/Login/Email';
 import { OtpPage } from './component/Login/OtpPage';
 import { Navbar } from './component/Navbar/Navbar';
@@ -18,9 +19,18 @@ function App() {
   const handleClick = () =>{
     setClick(true);
   }
+  
   return (
     <div className="App">
 
+
+
+       {/* <Page/> */}
+       {/* <Details/> */}
+        {/* <Page/> */}
+      {/* <Subscription /> */}
+      {/* <ExplorePage/> */}
+      {/* <Details/> */}
        {/* <Page/> */}
       {/* <Subscription/> */}
        {/* <Details/> */}
@@ -29,9 +39,10 @@ function App() {
         {/* <Email/> */}
         {/* <OtpPage/> */}
       <Routes>
-       <Route path='/' element={<ExplorePage />}/>
-        <Route path='page' element={<Page/>}/>
-        <Route path='subscribe' element={<Subscription/>}/>
+        <Route path='/' element={<ExplorePage />}/>
+        <Route path='nda' element={<Page/>}/>
+        <Route path='nda/subscribe' element={<Subscription />} />
+        <Route path='nda/subscribe/plan' element={<PlanDetails/>}/>
       </Routes>
       {/* <Details/> */}
       {/* <ExplorePage /> */}
