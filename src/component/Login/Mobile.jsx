@@ -1,8 +1,9 @@
 import React from 'react'
 import styles from "./Login.module.css"
 import {AiOutlineDown} from "react-icons/ai"
+import { Link } from 'react-router-dom';
 
-export const Mobile = ({handleClick}) => {
+export const Mobile = ({handleClick, handleLogin}) => {
   return (
       <>
       <div className={styles.inputBox}>
@@ -18,7 +19,7 @@ export const Mobile = ({handleClick}) => {
                 </div>
               </div>
               <div className={styles.btnAndEmail}>
-                <button className={styles.loginBtn}>Login</button>
+                <button className={styles.loginBtn} onClick={handleLogin}>Login</button>
                 <div>
                   <a href="#" className={styles.email} onClick={handleClick}><h6 className={styles.h6Email}>Continue with email</h6></a>
                 </div>

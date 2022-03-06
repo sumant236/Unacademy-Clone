@@ -1,8 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { IoSearchOutline } from "react-icons/io5";
-import { Login } from '../Login/Login';
-import { Navbar } from '../Navbar/Navbar';
+import { ModalPage } from '../Login/ModalPage';
 import { Courses } from './Courses';
 import style from './Explore.module.css'
 import { SideBar } from './SideBar';
@@ -31,9 +30,9 @@ export const ChooseYourGoal = () => {
   return (
     <div>
       <div className={style.inputContainer}>
-        <Login />
+        <ModalPage />
         <div className={style.searchBox}>
-            <h1 class={style.h1Tag}>Choose your goal</h1>
+            <h1 className={style.h1Tag}>Choose your goal</h1>
             <div className={style.inputDiv}>
               <div className={style.icon}><label><IoSearchOutline size = "20px" color='#3C4852'/></label></div>
               <div className={style.searchInput}><input type="text" placeholder= "Search for your goal" onChange={handleChange}></input></div>

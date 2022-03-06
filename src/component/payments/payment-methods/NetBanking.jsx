@@ -20,7 +20,7 @@ export default function NetBanking() {
           <div className={style.icici_bank_wrapper}>
                   <img src="https://static.uacdn.net/app_icons/payments/icici.png" />
               </div>
-          <h6 class={style.bank_heading}>ICICI Netbanking</h6>
+          <h6 className={style.bank_heading}>ICICI Netbanking</h6>
         
             </button>
         <button className={style.net_btn} onClick={netPayHander}>
