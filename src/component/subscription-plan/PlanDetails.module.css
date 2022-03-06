@@ -152,11 +152,6 @@
 
     margin-top: 10px;
 }
-.pricePerMonth p{
-
-    padding-top: 7px;
-}
-
 
 .monthdetails{
 
@@ -214,6 +209,7 @@
     border-top: 1px solid #E9EEF2;
     border-left: 1px solid #E9EEF2;
     border-bottom: 1px solid #E9EEF2;
+    border-right: none;
 }
 
 .fixedfooter input:hover{
@@ -228,7 +224,7 @@
     height: 48px;
     padding: 10px;
     margin-left: 90px;
-    margin-top: 3%;
+    margin-top: 5%;
     cursor: pointer;
     color: #FCFCFC;
     font-weight: bold;
@@ -259,7 +255,7 @@
     position: inherit;
     height: 48px;
     border-left: none;
-    margin-top: 3.5%;
+    margin-top: 3%;
     cursor: pointer;
     font-weight: bold;
     color: #08bd80;
