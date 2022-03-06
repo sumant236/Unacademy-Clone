@@ -66,7 +66,8 @@
 }
 .mobileNo{
     padding: 16px 24px;
-    width: 90%;
+    max-width: 100%;
+    border: none;
 }
 .country{
     display: flex;
@@ -85,7 +86,9 @@
 }
 .inputBoxes{
     padding: 16px 24px;
-    width: 90%;
+    max-width: 100%;
+    width: 100%;
+    border: none;
     border-radius: 6px;
 }
 .h6Email{

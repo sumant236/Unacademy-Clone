@@ -34,7 +34,7 @@ export const ModalPage = () => {
         transform: "none",
         transition: "transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms",
         height: "100%",
-        padding: "24px 115px 0px 48px",
+        padding: "24px 0px 0px 48px",
       };
       
     return (
