@@ -21,13 +21,13 @@ function App() {
     <div className="App">
 
 
-      <PlanDetails/>
+      {/* <PlanDetails/> */}
         {/* <Page/> */}
       {/* <Subscription/> */}
 
 
        {/* <Page/> */}
-       {/* <Details/> */}
+       <Details/>
       
      
 
