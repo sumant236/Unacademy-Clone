@@ -1,3 +1,17 @@
+.ulogo{
+
+    margin: 40px 0px 0px 200px;
+}
+
+.topheading h3{
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3C4852;
+    margin-bottom: 20px;
+}
+
 .main{
 
     display: flex;
@@ -7,6 +21,80 @@
 .slider{
 
     width: 40%;
+    padding-top: 170px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.topbuttons{
+
+    margin-bottom: 24px;
+    width: auto;
+}
+
+.btn1{
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: bold;
+}
+.button1{
+
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #E9EEF2;
+        background-color: #3C4852;
+        line-height: 100%;
+        font-weight: bold;
+}
+.btn2{
+
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: bold;
+}
+.button2{
+
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #E9EEF2;
+        background-color: #3C4852;
+        line-height: 100%;
+        font-weight: bold;
+}
+.emi{
+    width: auto;
+    height: 5%;
+    display: flex;
+    background-color: rgba(255, 173, 59, 0.08);
+    align-items: center;
+    padding-left: 80px;
+}
+.emi img{
+
+   width: 25px;
+   margin-right: 10px;
+}
+
+.plandetails{
+
+    width: 40%;
+    margin: 0px 30px 30px 30px;
+    text-align: center;
 }
 
 .durationAndprice{
@@ -18,20 +106,228 @@
 .plancard{
 
     width: 100%;
-    height: 100px;
+    height: 90px;
     display: flex;
-    gap: 60%;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #E9EEF2;
 }
-
+.plancard2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #08bd80;
+}
 .duration{
-
-    width: 50%;
+    margin-left: 40px;
 }
+
+.duration p{
+
+    font-size: 12px;
+    line-height: 150%;
+    margin: 4px 0px 0px;
+    color: #FFAD3B;
+    font-weight: 600;
+}
+
+
 .price{
 
-    width: 50%;
+    margin-left: 55%; 
 }
+.price div{
+
+    display: flex;
+}
+.pricePerMonth{
+
+    margin-top: 10px;
+}
+.pricePerMonth p{
+
+    padding-top: 7px;
+}
+
+
 .monthdetails{
 
     display: flex;
 }
+.monthdetails h4{
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #3C4852;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.monthdetails input{
+
+    margin-top: 8px;
+    margin-right: 10px; 
+}
+
+
+.fixedfooter{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid #E9EEF2;
+}
+.imgBox{
+
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.imgBox img{
+
+    width: 25px;
+}
+
+.fixedfooter input{
+
+    width: 40%;
+    height: 48px;
+    margin-top: 3%;
+    margin-left: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #E9EEF2;
+    border-left: 1px solid #E9EEF2;
+    border-bottom: 1px solid #E9EEF2;
+}
+
+.fixedfooter input:hover{
+
+    border: 1px solid #3C4852;
+    border-radius: 7px;
+}
+
+.paybtn{
+
+    width: 176px;
+    height: 48px;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 3%;
+    cursor: pointer;
+    color: #FCFCFC;
+    font-weight: bold;
+    background-color: #08bd80;
+    text-size-adjust: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.viewPlans{
+
+    width: 110px;
+    height: 48px;
+    padding: 10px;
+    margin-top: 6%;
+    cursor: pointer;
+    font-size: 70%;
+    border: #968f8f;
+    font-weight: bold;
+    border: 3px solid #E9EEF2;
+    border-radius: 8px;
+    background-color: white;
+    color:#08bd80;
+    margin-left: 20px;
+}
+
+.apply{
+    position: inherit;
+    height: 48px;
+    border-left: none;
+    margin-top: 3.5%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #08bd80;
+    border-top: 1px solid #E9EEF2;
+    border-right: 1px solid #E9EEF2;
+    border-bottom: 1px solid #E9EEF2;
+    background: none;
+}
+.para{
+
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1165px){
+
+    .price{
+
+        margin-left: 35%; 
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .ulogo{
+
+        margin: 30px 0px 0px 80px;
+    }
+
+    .main{
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .plancard{
+
+        width: 100%;
+        height: 90px;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid #E9EEF2;
+    }
+    .plancard2{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px solid #08bd80;
+    }
+
+    .plandetails{
+
+        width: 100%;
+        padding-left: 30px;
+        margin: 0px 30px 30px 30px;
+        text-align: center;
+    }
+
+    
+}
+

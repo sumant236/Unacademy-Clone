@@ -14,20 +14,29 @@
     font-size: 14px;
     gap: 4px;
     margin: 12px 0px 32px;
+    align-items: center;
 }
 .pTag{
     padding-top: 2px;
     width: 14px;
+    margin: 0px;
+}
+.otpPTag{
+    padding-top: 2px;
+    width: 80%;
+    margin: 0px;
 }
 .h6Tag{
     font-size: 14px;
     color: #08BD80;
     font-weight: bold;
     line-height: 150%;
+    margin: 0px;
 }
 .hyper{
     text-decoration: none;
     border-bottom: 2px dotted #08BD80;
+    margin: 0px;
 }
 
 .countryCode{
@@ -37,6 +46,7 @@
     padding: 0px 8px 0px 12px;
     width: 40px;
     max-width: 100%;
+    margin: 0px;
 }
 .codes{
     display: flex;
@@ -66,7 +76,7 @@
     border: 1px solid #E9EEF2;
     border-radius: 6px;
     align-items: center;
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 32px;
 }
 .inputBox:hover, .inputBox:focus, .inputBoxes:hover, .inputBoxes:focus{
@@ -75,7 +85,7 @@
 }
 .inputBoxes{
     padding: 16px 24px;
-    width: 100%;
+    width: 90%;
     border-radius: 6px;
 }
 .h6Email{
@@ -83,6 +93,7 @@
     color: #3C4852;
     font-weight: bold;
     line-height: 150%;
+    margin: 0px;
 }
 .email{
     text-decoration: none;
@@ -106,25 +117,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 80%;
 }
 .checkBox{
     font-size: 12px;
     margin-bottom: 30px;
-}
-.loginButton{
-    width: 80px;
-    height: 40px;
-    text-align: center;
-    border: none;
-    border-radius: 6px;
-    background: hsl(160, 92%, 39%);
-    color: #fff;
-}
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 70px;
-    height: 72px;
-    align-items: center;
-    background: #FBFCFC;
 }

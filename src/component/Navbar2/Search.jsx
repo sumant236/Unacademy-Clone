@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import style from './Navbar.module.css'
+import style from './Navbar2.module.css'
 import { IoSearchOutline } from "react-icons/io5";
 function Search() {
   return (

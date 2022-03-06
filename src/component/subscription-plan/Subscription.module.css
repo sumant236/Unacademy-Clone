@@ -1,3 +1,9 @@
+.ulogo{
+
+    margin: 20px 0px 0px 200px;
+    cursor: pointer;
+}
+
 .main{
 
     min-height: 100vh;
@@ -8,10 +14,12 @@
 
 .plandetails{
 
-    width: 1136px;
+    width: auto;
     margin: auto;
     align-items: center;
     margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 8%;
     display: flex;
     
      
@@ -138,6 +146,7 @@
 }
 
 
+
 .iconic{
 
     display: block;
@@ -187,4 +196,40 @@
 }
  
 
+@media only screen and (max-width: 767px){
 
+    .plandetails{
+
+        width: 100%;
+        margin: auto;
+        align-items: 0px;
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: flex;
+        flex-direction: column;
+        
+         
+    }
+
+    .plus{
+
+        display: block;
+        width: 100%;
+        padding: 3%;
+        border: 1px solid #E9EEF2;
+        background-color: white;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .iconic{
+
+        display: block;
+        width: 100%;
+        padding: 3%;
+        padding-left: 30px;
+        border: 1px solid #E9EEF2;
+        background-color: white;
+        border-radius: 10px;
+    }
+}

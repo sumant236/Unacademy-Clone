@@ -22,12 +22,12 @@ export const Slider = () => {
     ]    
     return (
       <div>
-        <Carousel>
+        <Carousel NextIcon={" "} PrevIcon={" "}>
                 {items.map(item =>
-                    <div>
+                    <div key = {items.id}>
                         <div> {item.Profile_1}</div> 
                     </div>
-                )}
+                )}  
         </Carousel>
       </div>
     )

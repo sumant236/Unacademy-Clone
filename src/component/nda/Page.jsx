@@ -2,12 +2,12 @@ import React from 'react'
 import style from './nda.module.css'
 import { Link } from 'react-router-dom';
 import Introduction from './Introduction';
-import Navbar from '../Navbar/Navbar';
+import Navbar2 from '../Navbar2/Navbar2';
 
 function Page() {
   return (
     <div>
-        <Navbar/>
+        <Navbar2/>
         <div className={style.wrapper}>
             <img src='https://static.uacdn.net/production/_next/static/images/goal/boy.svg?q=75&w=384' alt='left_img' /> 
             <div className={style.wrapper_content}>

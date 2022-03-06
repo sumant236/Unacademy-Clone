@@ -178,7 +178,7 @@ body {
   padding: 16px;
   margin: 0;
   padding: 0;
-  border: "none";
+  border: 1px solid transparent;
   width: 30px;
   background-color: transparent;
 }
@@ -211,8 +211,7 @@ body {
   margin-right: 8px;
 }
 
-input {
-  border: 0;
+.payment_container input[type="text"] {
   outline: none;
 }
 
@@ -437,6 +436,7 @@ input {
 .amount_subscription_fee {
   display: flex;
   margin-bottom: 12px;
+  justify-content: space-between;
 }
 
 .sub_fee_amt {
@@ -491,6 +491,7 @@ input {
 .discount_wrapper {
   display: flex;
   margin-bottom: 12px;
+  justify-content: space-between;
 }
 
 .cred_app {
@@ -521,4 +522,17 @@ input {
   user-select: none;
   background-color: #08bd80;
   margin-top: 16px;
+}
+
+@media only screen and (max-width: 70.95em) {
+  .user_details {
+    padding: 24px;
+  }
+}
+
+@media only screen and (max-width: 47.95em) {
+  .user_details {
+    padding: 16px;
+    margin-bottom: 8px;
+  }
 }

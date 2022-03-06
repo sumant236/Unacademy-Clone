@@ -16,6 +16,7 @@ import CashReciept from './payment-methods/CashReciept';
 import Card from './payment-methods/Card'
 import NetBanking from './payment-methods/NetBanking';
 import { Link } from 'react-router-dom'
+import CloseIcon from '@mui/icons-material/Close';
 import style from './details.module.css'
 
 
@@ -93,12 +94,14 @@ export default function Details() {
                       </div>
                       
                   </div>
-            <div className={style.picture}></div>
+            <div>
+            <Avatar>S</Avatar>
+            </div>
               </div>
           <div className={style.payment_wrapper}>
             <h4 className={style.payment_choose_wraper}>Choose a payment method</h4>
-            <div class={style.method_wrapper}>
-              <div class={style.column_1}>
+            <div className={style.method_wrapper}>
+              <div className={style.column_1}>
                           <Tabs
                             orientation="vertical"
                             variant="scrollable"
@@ -171,7 +174,7 @@ export default function Details() {
         <div className={style.subscription_wrapper}>
           <div className={style.subscription_inner_wrapper}>
             <div className={style.subscription_first_wrapper}>
-              <h4 className={style.sub_head_wrapper}>IIT JEE subscription</h4>
+              <h4 className={style.sub_head_wrapper}>NDA subscription</h4>
               <p className={style.subs_desc_wrapper}>24 months </p>
               <div className={style.subs_valid_desc}>
                 <p className={style.subs_inner_valid_desc}>Valid till 3 Mar, 2024</p>
@@ -199,17 +202,21 @@ export default function Details() {
             <div className={style.coin_wrapper}>
               <img src="https://static.uacdn.net/production/_next/static/images/credit.png?q=75&w=48" width="24px" height="24px" />
               <h6 className={style.credits_wrapper}>{credit} credits</h6>
-              <Link to='/' className={style.redeem_wrapper} onClick={redeemHandler}>Redeem</Link>
+              {isRedeem==false ?
+                <Link to='/' className={style.redeem_wrapper} onClick={redeemHandler}>Redeem</Link> :
+                <CloseIcon onClick={ redeemHandler}/> 
+              }
+              
             </div>
           </div>
           <div className={style.fee_wrapper}>
             <div className={style.amount_subscription_fee}>
               <p className={style.sub_fee_amt}>Subscription fee</p>
-              <p className={style.sub_fee_amt}>₹{ oldfee}</p>
+              <p className={style.sub_fee_amt}>₹{ oldfee.toLocaleString()}</p>
             </div>
             {isRedeem ?
               <div className={style.discount_wrapper}>
-                <p class={style.cred_app}>Credits applied</p>
+                <p className={style.cred_app}>Credits applied</p>
                 <p className={style.cred_app}>- { credit}</p>
            </div>:""
             }
@@ -217,7 +224,7 @@ export default function Details() {
             <hr className={style.hr_divider}></hr>
             <div className={style.total_amt}>
               <h4 className={style.total} >Total<p className={style.include_tax}> (Incl. of all taxes)</p></h4>
-              <span className={style.total_fee_pay}>₹{ newfee}</span>
+              <span className={style.total_fee_pay}>₹{ newfee.toLocaleString()}</span>
             </div>
           </div>
 
