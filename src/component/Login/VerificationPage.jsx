@@ -12,7 +12,7 @@ const createData = (userData) => {
   return axios(config);
 }
 
-export const VerificationPage = ({onLoggingIn, onLogin}) => {
+export const VerificationPage = ({login}) => {
     const [userData, setUserData] = useState({
       password: "",
       name: "",
@@ -24,8 +24,9 @@ export const VerificationPage = ({onLoggingIn, onLogin}) => {
       let {name, value, type} = e.currentTarget;
       setUserData({...userData, [name]: value});
     }
-
-    const handleSubmit = async () =>{
+    
+    // console.log({login});
+    const handleSubmit = async ({login}) =>{
       try {
         if(userData.name === ""){
           return err
@@ -37,10 +38,11 @@ export const VerificationPage = ({onLoggingIn, onLogin}) => {
           password: "",
           email:""
         })
+        {login}
+        // console.log();
         setIsLoading(false);
       }
-      catch(err){
-        console.log(err);
+      catch {
       }
     }
 
@@ -66,7 +68,7 @@ export const VerificationPage = ({onLoggingIn, onLogin}) => {
             <label> I agree to Unacademy’s Terms & Privacy policy</label>
           </div>
           <div className={styles.btnAndEmail}>
-            <input type="submit" className={styles.loginBtn} onClick={handleSubmit} value="Log In"/>
+            <input type="submit" className={styles.loginBtn} onClick={handleSubmit} onClickCapture={login} value="Sign Up"/>
           </div>
     </>
   )

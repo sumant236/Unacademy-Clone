@@ -848,22 +848,16 @@
   ],
   "users": [
     {
+      "password": "sdfs",
       "name": "sdfsd",
-      "password": "dfsdf",
-      "email": "fsddsf",
+      "email": "asdas",
       "id": 1
     },
     {
-      "password": "dsfsd",
-      "name": "sdfsd",
-      "email": "dsfsd",
+      "password": "dfgd0f",
+      "name": "sidjfis",
+      "email": "iudsjf",
       "id": 2
-    },
-    {
-      "password": "sdfsd",
-      "name": "sdfs",
-      "email": "sdfsd",
-      "id": 3
     }
   ]
 }
