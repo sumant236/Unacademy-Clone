@@ -7,6 +7,7 @@ import { Slider } from './Slider'
 import { useState } from 'react'
 import { useContext } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
+import { Link } from 'react-router-dom'
 
 
 export const PlanDetails = () => {
@@ -114,7 +115,7 @@ export const PlanDetails = () => {
                     />
                     <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                   <button className={style.paybtn}>Proceed to pay</button>
+                <Link to='payment'><button className={style.paybtn}>Proceed to pay</button></Link> 
                 </div>
             </div>
         </div>
