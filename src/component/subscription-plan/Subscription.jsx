@@ -148,7 +148,7 @@ export const Subscription = () => {
             aria-describedby="modal-modal-description"
         >
             <Box sx={hamstyle}>
-              <button onClick={handlePopout}>X</button>
+              <button style={{border:"none", fontSize:"20px", backgroundColor:"transparent"}} onClick={handlePopout}>X</button>
               <Hamburger/>
             </Box>
         </Modal>

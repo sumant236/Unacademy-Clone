@@ -30,6 +30,7 @@
     height: 56px;
     margin-top: 32px;
     border-radius: 6px;
+   
 }
 .searchBox{
     padding-top: 72px;
@@ -118,5 +119,6 @@
     flex-flow: row;
 }
 .inputBox{
+    outline: none;
     border: none;
 }

@@ -8,21 +8,20 @@ import { useState } from 'react'
 import { useContext } from 'react'
 import { AuthContext } from '../../context/AuthProvider'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 export const PlanDetails = () => {
 
-    const {value1,value2,value3,value4,value5,value6,con} = useContext(AuthContext);
+    const {value1,value2,value3,value4,value5,value6,con,sender} = useContext(AuthContext);
 
-    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon} = useContext(AuthContext);
+    const {setvalue1,setvalue2,setvalue3,setvalue4,setvalue5,setvalue6,setCon,setSender} = useContext(AuthContext);
     
     const [show, setShow] = useState(!con);
     const [view, setView] = useState(false);
     const [value, setValue] = useState("");
    
-    const addDiscount=()=>{
-
-        
+    const addDiscount=()=>{ 
         setvalue1({
             dur: value1.dur,
             price:value1.price-value,
@@ -63,7 +62,14 @@ export const PlanDetails = () => {
     const onIconic=()=>{
         setShow(false);
     }
-
+    // // console.log(sender === {});
+   const navigate = useNavigate();
+    const processHandler = () => {
+         console.log(Object.keys(sender).length);
+        if (Object.keys(sender).length !== 0) {
+            navigate('payment')
+        }
+    }
   return (
     <div>
         <header className={style.ulogo}>
@@ -111,7 +117,7 @@ export const PlanDetails = () => {
                     />
                     <button className={style.apply} onClick={addDiscount}>Apply</button>
                     
-                <Link to='payment'><button className={style.paybtn} >Proceed to pay</button></Link> 
+               <button className={Object.keys(sender).length!==0? style.paybtn: style.disable_pay} onClick = {processHandler} >Proceed to pay</button> 
                 </div>
             </div>
         </div>

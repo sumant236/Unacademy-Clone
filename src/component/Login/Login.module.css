@@ -81,6 +81,7 @@
     max-width: 80%;
     margin-bottom: 32px;
 }
+
 .countryCode:hover, .countryCode:focus, .inputBoxes:hover, .inputBoxes:focus{
     transition: border-color 400ms ease-in-out 0s;
     border: 1px solid black;

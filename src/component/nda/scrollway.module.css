@@ -27,12 +27,13 @@
     color: rgb(60, 72, 82);
     font: 'San Francisco', Helvetica, Arial, san-serif;
     padding: 20px;
+    
 }
 .best_way_link{
     text-decoration: none;
     border-style: none none dotted none;
     color: #08bd80;
-    margin-left: 30px;
+    margin-left: 65px;
     font-size: 25px;
     font-weight: 600;
 }

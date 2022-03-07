@@ -28,6 +28,7 @@ export default function Details() {
   const { sender, setSender } = useContext(AuthContext)
   const navigate = useNavigate();
   const changeHandler = () => {
+    setSender({})
     navigate('/nda/subscribe')
   }
   
