@@ -8,7 +8,7 @@ import { SideBar } from './SideBar';
 
 const getData = (val) =>{
   const config = {
-      url: `http://localhost:3000/Explore?q=${val}`,
+      url: `https://unacadmey.herokuapp.com/Explore?q=${val}`,
       method: "get"
   }
   return axios(config);

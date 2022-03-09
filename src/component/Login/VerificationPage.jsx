@@ -5,7 +5,7 @@ import axios from 'axios';
 const createData = (userData) => {
   const payload = userData
   const config = {
-    url: "http://localhost:3000/users",
+    url: "https://unacadmey.herokuapp.com/users",
     method: "post",
     data: payload
   };
