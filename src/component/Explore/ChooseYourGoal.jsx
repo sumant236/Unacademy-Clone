@@ -14,18 +14,24 @@ const getData = (val) =>{
   return axios(config);
 }
 
+const handleData = (val, setList) => {
+  getData(val)
+  .then((res)=>{
+    console.log(res.data)
+    setList(res.data)
+  })
+  .catch((err)=> console.log(err));
+}
+
 export const ChooseYourGoal = () => {
   const [list, setList] = useState([]);
   const [val, setVal] = useState("");
   const handleChange= (e) => {
     setVal(e.currentTarget.value);
+    // handleData(val, setVal);
   }
   useEffect(() => {
-      getData(val)
-      .then((res)=>{
-          setList(res.data)
-      })
-      .catch((err)=> console.log(err));
+      handleData(val, setList)    
   }, [handleChange]);
   return (
     <div>
