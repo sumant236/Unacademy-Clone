@@ -2,6 +2,7 @@ import React, { useState, createContext } from 'react'
 
 
 export const AuthContext = createContext();
+
 export default function AuthProvider({children}) {
 
     const [value1, setvalue1] = useState({dur:24,price:12000})
