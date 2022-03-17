@@ -26,7 +26,7 @@ export const ChooseYourGoal = () => {
           setList(res.data)
       })
       .catch((err)=> console.log(err));
-  }, []);
+  }, [handleChange]);
   return (
     <div>
       <div className={style.inputContainer}>
