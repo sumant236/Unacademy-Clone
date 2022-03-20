@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Unacadedmy (clone)
 
-## Available Scripts
+Prepare for examinations and take any number of courses from various topics on Unacademy - an education revolution.
+It is an educational platform with a massive transformative purpose of being the world’s largest educational repository by empowering great educators and making it accessible to everyo
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technology Stack Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this project we have used the following tech stack.
 
-### `npm run build`
+- React
+- Context API
+- CSS
+- HTML
+- Material UI
+- Javascript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to run the project
 
-### `npm run eject`
+- You can install the libraries using the "npm install" command.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+In this project we were able to achieve a near to perfect clone of the original website. As we do not want to overwhelm you, we haven't shared all the pages here.Please fork the repository and then use it on your own. If you want to collaborate with us on this project then please feel free to reach out to us.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can also take the glimpse of our Project,just follow the below steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+1.run the command npm run start in terminal to start the app at port 3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.Go to the browser you will land in the landing page just Register and login if you have signed up before or do the signup.
 
-## Learn More
+3.Our website had 2 things User can post anything and message to his/her friends.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+## Snapshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Login Page
 
-### Code Splitting
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/login.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/login2.png?raw=true)
 
-### Analyzing the Bundle Size
+- Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/home-page.png?raw=true)
 
-### Making a Progressive Web App
+- Subscription Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/home-page.png?raw=true)
 
-### Advanced Configuration
+- Select Plan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/select-plan.png?raw=true)
 
-### Deployment
+- Payment Method
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![ScreenShot](https://github.com/Guru9705/unacademy-images/blob/master/pay-method.png?raw=true)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+## Features
+
+- User can select any course that he wishes to study.
+- User can browse and search for the faulties and upcoming batches.
+- User can select any subscription plan that is within his budget.
+- User can choose for any payment method that is conveninet for him.
+
+## Demo
+
+[Unacademy_clone](https://unacademy-clone-site.netlify.app/)
+## Team Members and Contributors 😇
+
+- Gursimar Hora 
+    - Github [Gursimar Hora](https://github.com/Guru9705)
+- Sumant Singh
+    - Github [Sumant Singh](https://github.com/sumant236)
+- Saurabh Kushawaha
+    - Github [Saurabh Kushawaha](https://github.com/Saurabh-kushwaha)
+- Alok Sharma
+     - Github [Alok Sharma](https://github.com/AlokSharma01)
+
+
