@@ -7,7 +7,7 @@ import Navbar2 from '../Navbar2/Navbar2';
 function Page() {
   return (
     <div>
-        <Navbar2/>
+        {/* <Navbar2/> */}
         <div className={style.wrapper}>
             <img src='https://static.uacdn.net/production/_next/static/images/goal/boy.svg?q=75&w=384' alt='left_img' /> 
             <div className={style.wrapper_content}>
