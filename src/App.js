@@ -15,9 +15,9 @@ function App() {
       <Routes>
         {/* <Route path='/' element={<ExplorePage />}/> */}
         <Route path='/' element={<Page/>}/>
-        <Route path='nda/subscribe' element={<Subscription />} />
-        <Route path='nda/subscribe/plan' element={<PlanDetails />} />
-        <Route path='nda/subscribe/plan/payment' element={<Details />}/>
+        <Route path='subscribe' element={<Subscription />} />
+        <Route path='subscribe/plan' element={<PlanDetails />} />
+        <Route path='subscribe/plan/payment' element={<Details />}/>
       </Routes>
     </div>
   );
